@@ -1,0 +1,75 @@
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.jqzoom').jqzoom({
+            zoomType: 'standard',
+            lens:true,
+            preloadImages: false,
+            alwaysOn:false
+        });
+	
+});
+</script>
+
+			
+		
+            <?php include_once(CUSTOM_PAGE_ROOT.'view/second/topbar.html'); ?>
+
+		
+			<div class="product-main">
+				<div class="label-product"><?php the_title(); ?></div>
+				<div class="label-product2"><?php echo $wp_query -> queried_object -> post_excerpt;  ?></div>
+				<div class="product-detail">
+					<div class="product-big-image">
+					<a href="<?php echo $image_url[0]; ?>" class="jqzoom" rel='gal1'  title="<?php the_title(); ?>"> 
+                        <!-- <img src="images/hufu/90.jpg" height="240" /> -->
+                        <?php echo wp_get_attachment_image($thumbnailId, 'full',false,'',array('height' => 240 ,'width' => 222)); ?>
+                    </a>
+					
+					</div>
+					<div class="product-right">
+						<div class="small-product-list">
+                            <?php 
+                            
+                                foreach($productType3data as $value){
+                                    echo '<div class="small-product-pic"><a href="'.get_permalink($value['product_c']).'">'.wp_get_attachment_image($value['thumbnail_id'], 'full',false,'',array('height' => 54 ,'width' => 50)).'</a></div>';
+                                }
+                            
+                            ?>
+							
+						</div>
+						<div class="icon-zoomOut"></div>
+						<div class="share">
+							<a href="http://www.kx001.com/Givenchy_379193" class="kaixin"></a>	
+							<a href="http://e.weibo.com/parfumsgivenchy" class="weibo"></a>
+						</div>
+					</div>
+					
+					
+				</div>
+				<div class="product-description">
+					<div class="description-title">描述</div>
+					<div class="description-content"><?php echo $content_txt; ?></div>
+				</div>
+				<div class="product-advise">
+					<div class="advise-title">建议搭配：</div>
+					<div class="advise-box">
+						<div class="advise">
+                            <?php 
+                            
+                                foreach($associate_products as $value){
+                                    echo '<div class="adviseList">';
+                                    echo '<div class="advise-pic">';
+                                    echo '<a href = "'.get_permalink($value -> product_c).'" >'.wp_get_attachment_image($value -> thumbnail_id, 'full',false,'',array('height' => 95 ,'width' => 88)).'</a>'; 
+    								echo '</div>';
+    								echo '<div class="advise-name">';
+                                    echo '<a href = "'.get_permalink($value -> product_c).'" >'.$value -> title.'</a>' ;
+                                    echo '</div>';
+							        echo '</div>';
+                                }
+                            
+                            ?>
+                        </div>
+					</div>
+				</div>
+			</div>
+			

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: givenchy G2 - store-locator\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ludwig Troller\n"
+"Language-Team: ABCP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "lang"
+msgstr "fr"
+
+msgid "perfume"
+msgstr "Parfums"
+
+msgid "makeup"
+msgstr "Maquillage"
+
+msgid "care"
+msgstr "Soin"
+
+msgid "spa"
+msgstr "Spas"
+
+msgid "search-for-sales-point"
+msgstr "Rechercher un point de vente :"
+
+msgid "find-sales-point"
+msgstr "Chercher un point de vente"
+
+msgid "default-query"
+msgstr "Pays, Ville, Adresse..."
+
+msgid "locate-me"
+msgstr "Souhaitez vous être localisé afin que nous vous proposions les points de vente les plus proches ?"
+

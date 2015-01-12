@@ -1,0 +1,556 @@
+.game-wrapper {
+	height: 800px;
+	width: 760px;
+	background-image: url(../../images/store-game/page1_background.jpg);
+	background-repeat: repeat-x;
+	font-family: "微软雅黑", Arial, "华文细黑", "宋体";
+	color: #000;
+	text-decoration: none;
+	position: relative;
+}
+.game-wrapper .head-Title {
+	font-size: 50px;
+	width: 480px;
+	position: absolute;
+	z-index: 10;
+	left: 150px;
+	top: 60px;
+}
+.game-wrapper .foot-message {
+	font-size: 18px;
+	text-decoration: underline;
+	width: 76px;
+	z-index: 10;
+	bottom: 14px;
+	position: absolute;
+	left: 345px;
+	line-height: 19px;
+	height: 19px;
+}
+.game-wrapper .main-content {
+	position: relative;
+	z-index: 1;
+	height: 800px;
+	width: 760px;
+}
+.game-wrapper .main-content div {
+	position: absolute;
+	z-index: 50;
+	width: 125px;
+	height: 124px;
+	text-indent: -9999px;
+	
+}
+.Aries {
+	left: 312px;
+	top: 142px;
+	background-image: url(../../images/store-game/Aries.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Taurus{
+	left: 430px;
+	top: 176px;
+	background-image: url(../../images/store-game/Taurus.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Gemini{
+	left: 525px;
+	top: 269px;
+	background-image: url(../../images/store-game/Gemini.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Cancer{
+	left: 582px;
+	top: 385px;
+	background-image: url(../../images/store-game/Cancer.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Leo{
+	left: 532px;
+	top: 500px;
+	background-image: url(../../images/store-game/Leo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Virgo{
+	left: 437px;
+	top: 589px;
+	background-image: url(../../images/store-game/Virgo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Libra{
+	left: 324px;
+	top: 630px;
+	background-image: url(../../images/store-game/Libra.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Scorpio{
+	left: 212px;
+	top: 588px;
+	background-image: url(../../images/store-game/Scorpio.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Sagittarius{
+	left: 106px;
+	top: 505px;
+	background-image: url(../../images/store-game/Sagittarius.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Capricorn{
+	left: 66px;
+	top: 389px;
+	background-image: url(../../images/store-game/Capricorn.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Aquarius{
+	left: 104px;
+	top: 271px;
+	background-image: url(../../images/store-game/Aquarius.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.Pisces{
+	left: 196px;
+	top: 173px;
+	background-image: url(../../images/store-game/Pisces.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.game-wrapper div.form {
+	position: absolute;
+	left: 236px;
+	top: 350px;
+	font-size: 24px;
+	width: 290px;
+	height: 180px;
+	line-height: 30px;
+	z-index: 100;
+}
+.game-wrapper .form .form-box {
+	height: 30px;
+	width: 128px;
+	border: 2px solid #060606;
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.game-wrapper .form .form-box input,.game-wrapper .form .form-box select {
+	border: none;
+	background: none;
+	line-height: 30px;
+	width: 100px;
+	display: block;
+	float: left;
+	font-size: 24px;
+	height: 30px;
+
+}
+.game-wrapper .form .form-title {
+	margin-bottom: 16px;
+	margin-left: 10px;
+}
+.game-wrapper .form .submit-box {
+	float: right;
+	text-align: center;
+	width: 92px;
+	margin-top: 48px;
+	border: 2px solid #000;
+	font-size: 24px;
+	margin-right:6px;
+}
+.game-wrapper .form .submit-box a{
+	text-decoration:none;
+	color:#000;
+}
+.game-wrapper .form .submit-box a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+.tiger-wrapper {
+	height: 1000px;
+	width: 760px;
+	font-family: "微软雅黑", Arial, "华文细黑", "宋体";
+	color: #000;
+	text-decoration: none;
+	position: relative;	
+	overflow: hidden;
+}
+.tiger-wrapper .tiger-title {
+	font-size: 40px;
+	line-height: 40px;
+	width: 100%;
+	text-align: center;
+	padding-top: 45px;
+}.tiger-wrapper .tiger-main {
+	margin-top: 20px;
+	height: auto;
+	overflow: hidden;
+	margin-left: 68px;
+	clear: both;
+}
+.tiger-wrapper .tiger-main .tiger-tr {
+	position: relative;
+	height: auto;
+	width: 146px;
+	margin-right: 6px;
+	margin-left: 6px;
+	float: left;
+	overflow: hidden;
+	z-index: 1;
+}
+.tiger-wrapper .tiger-main .tiger-tr .tiger-h {
+	font-size: 28px;
+	line-height: 52px;
+	height: 52px;
+	text-align: center;
+	padding-bottom: 12px;
+}
+.tiger-wrapper .tiger-main .tiger-tr .tiger-Box {
+	height: 182px;
+	width: 142px;
+	overflow: hidden;
+	border: 1px solid #bebfbe;
+	z-index: 50;
+	position: relative;
+}
+.tiger-wrapper .tiger-tr .tiger-message {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 4px;
+	word-break: break-all;
+	text-align: justify;
+	border: 2px solid #000;
+	height: 280px;
+	margin-top: 126px;
+	opacity: 0;
+	filter: Alpha(Opacity=0);
+}
+.tiger-wrapper .tiger-share {
+	float: right;
+	height: 42px;
+	width: 178px;
+	margin-right: 65px;
+	margin-top: 33px;
+}
+.tiger-wrapper .tiger-share a{
+	text-indent: -9999px;
+	height: 42px;
+	width: 178px;
+	display: block;
+	background-image: url(../../images/store-game/tiger_share.jpg);
+}
+.tiger-wrapper .tiger-main .tiger-tr .tiger-Box ul {
+	position: relative;
+	height: auto;
+	top: 183px;
+}
+.tiger-wrapper .tiger-start {
+	height: 50px;
+	width: 30px;
+	position: absolute;
+	left: 708px;
+	top: 420px;
+}
+.tiger-wrapper .tiger-start a {
+	display: block;
+	height: 50px;
+	width: 30px;
+	text-indent: -9999px;
+	overflow: hidden;
+
+}
+.tiger-wrapper .tiger-main .tiger-tr .tiger-flag {
+	background-image: url(../../images/store-game/tiger_closed.png);
+	background-repeat: repeat;
+	height: 182px;
+	width: 142px;
+	position: absolute;
+	z-index: 100;
+	top: 66px;
+	left: 1px;
+}
+.tiger-wrapper .tiger-Box .slotSpinAnimation {
+	display: block;
+	position: absolute;
+	z-index: 150;
+	top: 0px;
+	left: 1px;
+}
+.form-html {
+	height: 400px;
+	width: 600px;
+}
+.form-html .form-title {
+	font-size: 24px;
+	width: 100%;
+	line-height: 58px;
+	font-weight: bold;
+	text-align: center;
+}
+.form-html .form-content {
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.form-html label {
+	font-size: 24px;
+	line-height: 48px;
+	font-weight: normal;
+	width: 80px;
+	height: 48px;
+	float: left;
+	display: block;
+}
+.form-html input {
+	font-size: 16px;
+	line-height: 24px;
+	width: 156px;
+	height: 24px;
+	float: left;
+	margin: 12px 0;
+}
+.form-html .right {
+	margin-left: 120px;
+}
+.form-html .left {
+	width: 240px;
+	float: left;
+	height: auto;
+}
+.form-html .right {
+	float: left;
+	width: 240px;
+	margin-left: 80px;
+}
+.form-html .pic-up {
+	width: 560px;
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.form-html select {
+	float: left;
+	font-size: 24px;
+	line-height: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 160px;
+}
+.form-html .pic-up .title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.form-html label span {
+	color: #F00;
+}
+.form-html  .both {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	height: auto;
+}
+.form-html .bottom-message checkbox {
+}
+.form-html .bottom-message .check-box {
+	width: 20px;
+	float: left;
+	margin: 0;
+}
+.form-html .bottom-message .attention{
+	float: left;
+	line-height: 30px;
+	color: #F00;
+	margin-left: 20px;
+}
+.form-html .bottom-message .check-message {
+	float: right;
+	line-height: 30px;
+}
+.form-html .bottom-message {
+	margin-top: 20px;
+}
+.form-html .pic-up .submit {
+	width: 140px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 18px;
+}
+.form-html .pic-up .button-submit {
+	width: 140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.form-html .pic-up .both #counter {
+	width: 400px;
+}
+.tiger-wrapper .detail-title h2 {
+	font-size: 24px;
+	height: 35px;
+	margin-left: 80px;
+	line-height: 35px;
+}
+.tiger-wrapper .detail-title h3 {
+	margin-left: 80px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.tiger-wrapper .detail-title h4 {
+	margin-left: 80px;
+	margin-top: 16px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.tiger-wrapper .detail-title {
+	padding-top: 20px;
+}
+.slot-begin {
+	overflow: hidden;
+	text-decoration: none;
+	background-image: url(../../images/store-game/ladong_light.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+	height: 1000px;
+	width: 760px;
+}
+.tiger-wrapper .detail-title .changeH3 {
+	margin-top: 16px;
+}
+#slot-begin #success {
+	height: 50px;
+	width: 200px;
+	display: none;
+}
+#wrong {
+	display: none;
+}
+.slot-1{
+	background-image: url(../../images/store-game/kuangliang1.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+	}
+.slot-2{
+	background-image: url(../../images/store-game/kuangliang2.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+}
+.slot-3{
+	background-image: url(../../images/store-game/kuangliang3.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+}
+.slot-4{
+	background-image: url(../../images/store-game/kuangliang4.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+}
+#outOfStocknumAttention{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	display:none;
+	color:red;
+}
+#counter .outOfStocknum{
+	color: #CCC;
+}
+div.growlUI { background: url(../../images/store-game/check48.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+	color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+.hidden-success{
+	background-image: url(../../images/store-game/search-bg.png);
+	background-repeat: repeat;
+	padding: 40px;
+	font-size: 16px;
+	color: #CCC;
+	overflow: hidden;
+	}
+p.p-wrong{
+	font-size: 16px;
+	width: 350px;
+	float: left;
+	margin-left: 20px;
+	line-height: 28px;	
+}
+.p-attension{
+	float: left;
+	background-image: url(../../images/store-game/bt-attention-icon.png);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	position: relative;
+	margin-right: 20px;	
+}
+.p-ok{
+	float: left;
+	background-image: url(../../images/store-game/check48.png);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	position: relative;
+	margin-right: 20px;	
+}
+.hidden-success button{
+	right: 20px;
+	bottom: 20px;
+	position: absolute;
+	float: right;		
+}.rule-all {
+	height: auto;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+}
+.rule-all .rule-title {
+	font-size: 24px;
+	line-height: 48px;
+	font-weight: bold;
+}
+.rule-all .rule-content {
+	font-size: 18px;
+	line-height: 36px;
+}
+.rule-all .rule-detail {
+	height: auto;
+	width: 100%;
+}
+.rule-all .rule-detail .rule-way {
+	font-size: 18px;
+	line-height: 36px;
+	width: 160px;
+	float: left;
+}
+.rule-all .rule-detail .rule-each {
+	float: left;
+	width: 340px;
+	line-height: 24px;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.page-item-1402{
+	text-indent:-9999px;
+	float:left;
+}
+.page-item-1402 a{
+	float: left;
+	width: 160px;	
+	background-image: url(../../images/store-game/vaxin.gif);
+	background-repeat: no-repeat;
+	background-position:16px;0px;
+}
+.mouseDown{
+	background-image: url(../../images/store-game/down.jpg);
+	background-repeat: no-repeat;
+	background-position: 6px 341px;
+}

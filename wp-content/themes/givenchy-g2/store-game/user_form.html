@@ -1,0 +1,228 @@
+<script type="text/javascript">
+jQuery(document).ready(function(){
+		var emailFlag=phoneFlag=textBoxFlag=nameFlag=0;
+		var id=-1;
+		var shopMessage;
+		var cp={
+			"110000":['上海'],
+			"120000":['杭州'],
+			"130000":['南宁'],
+			"140000":['宁波','无锡','苏州','南京','无锡'],
+			"150000":['长沙'],
+			"210000":['南昌'],
+			"220000":['昆明'],
+			"230000":['贵阳'],
+			"310000":['厦门','福州'],
+			"320000":['宜昌','武汉'],
+			"330000":['广州','深圳'],
+			"340000":['合肥'],
+			"360000":['北京'],
+			"370000":['鞍山','沈阳','大连'],
+			"410000":['哈尔滨'],
+			"380000":['重庆'],
+			"420000":['四川'],
+			"430000":['石家庄'],
+			"440000":['天津'],
+			"450000":['郑州','洛阳'],
+			"460000":['青岛','济南','烟台',],
+			"500000":['乌鲁木齐'],
+			"510000":['长春'],
+			"520000":['兰州'],
+			"530000":['鄂尔多斯','呼和浩特'],
+			"540000":['青岛','济南','烟台','青岛'],
+			"610000":['西安'],
+			"620000":['太原']
+			}
+		var Gprovince,Gcity;
+		$("#province").change(function(){
+				$("#city").find("option").remove();
+				$("#city").append('<option value=""></option>');
+				Gprovince=$("#province").val();
+				//console.log(Gprovince);
+				for(var i in cp){
+					//console.log(i,cp[i]);
+					if(i==Gprovince){
+							//console.log(cp[i]);
+							for(var j=0;j<cp[i].length;j++){
+								$("#city").append('<option value="'+cp[i][j]+'">'+cp[i][j]+'</option>');
+							}
+						}
+					}
+			});
+		$("#city").change(function(){
+				$("#counter").find("option").remove();
+				Gcity=$("#city").val();
+				console.log(Gcity);
+				jQuery.post("wp-admin/admin-ajax.php",{
+				                action:"fgame_ctl_user",
+										fgame_action:"getshop",
+										ctl:"stock",
+										city:Gcity},function(data){
+				                            //console.log(data);
+											//showMessage=data;
+                                            var dataObj=eval("("+data+")");
+                                            $.each(dataObj,function(i,ite){
+                                                $("#counter").append('<option value="'+ite.id+'">'+ite.address+'</option>');
+                                            })
+                                            //alert(1);
+											//for(var i=0;i<showMessage.length;i++){
+											 //$("#counter").append('<option value="'+showMessage[i]["id"]+'">'+showMessage[i]["address"]+'</option>');
+                                           // }
+										}
+                            );
+				
+			});
+		$("#counter").change(function(){
+			id=$("#counter").val();
+			})
+		
+		
+		var textBoxChecked,inputName,inputEmail,inputPhone;
+		
+		$(".form-html").mouseover(function(){
+				
+		 textBoxChecked=$(".check-box").attr("checked");
+		if(textBoxChecked=="checked"){
+			textBoxFlag=1;
+			}
+		 inputName=$(".input-name").val();
+		 nameFlag=inputName?1:0;
+		 inputEmail=$(".input-email").val();
+		 inputPhone=$(".input-phone").val();
+		
+		if(emailFlag&&phoneFlag&&textBoxFlag&&nameFlag){
+			$(".submit").removeAttr("disabled")
+			}
+		
+		console.log(emailFlag,phoneFlag,textBoxFlag,nameFlag);
+		
+		}
+		
+		
+)
+	$(".submit").click(function(){
+	   if(id<0){
+	       id=$("#counter").val();          
+	   }
+		jQuery.post("wp-admin/admin-ajax.php",{
+						action:"fgame_ctl_user",
+						ctl:"user",
+						fgame_action:"add_fgame_user",
+						shopId:id,
+						inputName:inputName,
+						inputEmail:inputEmail,
+						inputPhone:inputPhone
+		},function(data){alert(success);});
+		
+		});
+		
+		 
+	function shake(ele,cls,times){
+			var i = 0,t= false ,o =ele.attr("class")+" ",c ="",times=times||2;
+			if(t) return;
+			t= setInterval(function(){
+				i++;
+				c = i%2 ? o+cls : o;
+				ele.attr("class",c);
+				if(i==2*times){
+					clearInterval(t);
+					ele.removeClass(cls);
+					}
+				},200);
+			};
+			
+			
+	
+		//通不过mail校验闪动
+		$("#mail").blur(
+			function(){
+				 if(!/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/.test($(this).val())) {
+					 	//alert(1);
+					 	$(".submit").attr("disabled","disabled");
+						shake($(this),"red",3);
+						emailFlag=0;
+					}
+				else{emailFlag=1}
+				}
+			);
+		$("#phone").blur(
+			function(){
+				 if(!/^1[3|4|5|8][0-9]\d{4,8}$/.test($(this).val())) {
+					 	//alert(1);
+					 	$(".submit").attr("disabled","disabled");
+						shake($(this),"red",3);
+						phoneFlag=0;
+					}
+				else{phoneFlag=1};
+				}
+			);	
+		
+			
+				
+
+			
+	});
+
+</script>
+<div class="form-html">
+	<div class="form-title">请填写个人信息,以便通知您领取小样和奖品</div>
+	<div class="form-content">
+		<div class="left"><label>姓名<span>*</span></label>
+		<input type="text" class="input-name"/>
+		</div>
+		<div class="right"><label>邮箱<span>*</span></label>
+		<input type="text" class="input-email" id="mail"/></div>
+		<div class="left"><label>手机<span>*</span></label>
+		<input type="text" class="input-phone" id="phone"/></div>
+	</div>
+	<div class="pic-up">
+		<div class="title">选择领取小样的柜台</div>
+		<div class="left">
+		<label>省份</label>
+		<select name="province" title="省" id="province">
+			<option value=""></option>
+			<option value="110000">上海</option>
+			<option value="120000">浙江</option>
+			<option value="130000">广西</option>
+			<option value="140000">江苏</option>
+			<option value="150000">湖南</option>
+			<option value="210000">江西</option>
+			<option value="220000">云南</option>
+			<option value="230000">贵州</option>
+			<option value="310000">福建</option>
+			<option value="320000">湖北</option>
+			<option value="330000">广东</option>
+			<option value="340000">安徽</option>
+			<option value="360000">北京</option>
+			<option value="370000">辽宁</option>
+			<option value="380000">重庆</option>
+			<option value="410000">黑龙江</option>
+			<option value="420000">四川</option>
+			<option value="430000">河北</option>
+			<option value="440000">天津</option>
+			<option value="450000">河南</option>
+			<option value="460000">山东</option>
+			<option value="500000">新疆</option>
+			<option value="510000">吉林</option>
+			<option value="520000">甘肃</option>
+			<option value="530000">内蒙古</option>
+			<option value="540000">山东</option>
+			<option value="610000">陕西</option>
+			<option value="620000">山西</option>
+		</select>
+		</div>
+		<div class="right">
+		<label>市区</label>
+		<select name="city" title="市/区" id="city"></select>
+		</div>
+		<div class="both">
+		<label>柜台</label>
+		<select name="counter" title="柜台" id="counter" class="counter"></select>
+		</div>
+		<div class="button-submit"><input type="button" value="确定" class="submit" disabled="disabled"/></div>
+	</div>
+	<div class="bottom-message"><div class="attention"><span>*为必填项</span></div>
+	<div class="check-message"><input type="checkbox" value="1" class="check-box"/>我想了解纪梵希美妆的新讯息
+	</div></div>
+</div>
+

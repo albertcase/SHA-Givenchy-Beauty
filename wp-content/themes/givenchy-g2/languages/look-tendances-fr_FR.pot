@@ -1,0 +1,181 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR , YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-27 17:11-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-05-27 11:36+0100\n"
+"Last-Translator: Florian <nikotine192@hotmail.com>\n"
+"Language-Team: WP\n"
+
+##################################################
+#					FOOTER
+##################################################
+msgid "Description"
+msgstr "Description"
+
+msgid "Conseils d'applications"
+msgstr "Conseils d'application"
+
+msgid "Produits du look"
+msgstr "Produits du look"
+
+##################################################
+#					TITLE
+##################################################
+msgid "look1-title"
+msgstr "Naturellement Radieuse"
+
+msgid "look2-title"
+msgstr "Tailleur Tendance"
+
+msgid "look3-title"
+msgstr "Croisière Chic"
+
+msgid "look4-title"
+msgstr "Elégance Stylée"
+
+msgid "look5-title"
+msgstr "Pétillante jusqu'à l'Aube"
+
+##################################################
+#					DESCRIPTION
+##################################################
+msgid "look1-description"
+msgstr "Se faire plaisir. <br />Et à soi d’abord. <br />Ce look s’adresse à toutes celles qui veulent simplement révéler leur beauté au naturel. Comme pour sublimer leur personnalité. <br />Le temps d’une échappée shopping, d’un moment de détente, d’une pause week end.<br />On laisse éclater une beauté fraiche et charnelle. Notre beauté intérieure, notre sérénité semble, comme par magie, faire surface. <br />Je me sens belle. Je suis belle. <br />Je me ressource, je me retrouve. "
+
+msgid "look2-description"
+msgstr "Oser. <br />Mais aussi doser. <br />Etre en confiance, performante, sûre de soi. <br />Et toujours femme. <br />Car le plus beau des secrets des femmes d’aujourd’hui, c’est bien leur féminité. <br />Le look \"tailleur tendance\" apporte à chacune le \"je ne sais quoi\" qui fait toute la différence. <br />En nuance et subtilité, il vous permet aussi de vous affirmer. Ce n’est pas une arme, simplement un atout. <br />Un look assurément dans la vie active de chacune d'entre nous. <br />A vous de jouer maintenant…"
+
+msgid "look3-description"
+msgstr "Une élégance halée. Une promenade en bord de mer. Un cocktail sur le pont d’un bateau. <br />Le soleil illumine la beauté des femmes : une peau dorée prête à savourer les magies estivales, un bien-être intérieur. <br />Le look \"Croisière Chic\" vous permet d’être une déesse de l’été, celle que l’on remarque par son allure et sa grâce. Par son intemporel charme et mystère. <br />Souriez, on vous regarde. <br />Regardez, on vous sourie. "
+
+msgid "look4-description"
+msgstr "Ni trop, ni trop peu. <br />Etre remarquée mais ne pas monopoliser. <br />Vous voilà attendue à un dîner, en représentation à un vernissage, ou encore à une première au théâtre des Champs Elysées. <br />Construit et sophistiqué, le look \"Elégance Stylée\" vous permettra d’affirmer votre présence et de mettre une majuscule à votre féminité.<br /> Glamour, élégance, tendance : oui, mais avec justesse et parfois avec espièglerie. "
+
+msgid "look5-description"
+msgstr "Vous donnez et vous vous donnez.<br />Vous vous montrez et vous êtes vue. <br />Et vous aimez çà. <br />Le look \"Pétillante jusqu'à l'Aube\" vous emmènera très loin dans l’élégance certes extraordinaire mais toujours « so glamour ». <br />Exceptionnelle vous êtes, exceptionnelle vous resterez. Star de la soirée, diva au grand cœur, vous vous élevez vous-même au rang d’icône. Tous les regards s’attarderont sur vous. Vous et uniquement vous. "
+
+##################################################
+#					APPLICATION
+##################################################
+msgid "Skincare"
+msgstr "Soin"
+
+msgid "Complexion"
+msgstr "Teint"
+
+msgid "Eyes"
+msgstr "Yeux"
+
+msgid "Eyebrows"
+msgstr "Sourcils"
+
+msgid "Lips"
+msgstr "Lèvres"
+
+# LOOK1
+msgid "look1-application-Skincare"
+msgstr "<p><strong>Crème Fondante (ou Onctueuse selon le type de peau) Hydratation Lumière Hydra Sparkling</strong> : Appliquez la crème Hydra Sparkling sur votre visage. Votre peau sera réhydratée, douce et veloutée. Elle rayonnera d’une lumière pure et étincelante de fraîcheur.</p>"
+
+msgid "look1-application-Complexion"
+msgstr "<p><strong>Anticernes Mister Light</strong> : Ce stylo magicien agit comme un chasseur d’ombres. Appliquez-le avant  (ou après) votre fond de teint, sous les yeux et la zone T pour atténuer les traces de fatigues et les petits défauts de la peau. <br/><br/><em><span>Petite astuce Givenchy</span> : Vous pouvez aussi l’appliquer sur l’arc de cupidon pour ourler délicatement le dessus des lèvres.</em></p><p><strong>Fond de Teint Photo’Perfexion Light </strong>: Appliquez l’embout mousse légèrement imprégné de fond de teint, toujours en mouvements ascendants, du centre vers l’extérieur du visage.<br /><br /><strong>Base de teint Matifiante Mister Mat </strong>: cette base de teint peut être appliquée sous ou par-dessus un Fond de Teint. Appliquez ce gel poudré matifiant au teint velouté pour un teint matifié toute la journée. Sa texture gélifiée se déroule sur la peau en un voile doux et poudré.</p><p><strong>Le Prisme Blush</strong> : Pour illuminer votre teint en un seul geste, mélangez les teintes des 4 dômes et appliquez la poudre sur vos pommettes. Pour un teint plus sophistiqué, utilisez chaque teinte séparément, pour un éclat sur-mesure.<br /><br /><em><span>Petite astuce Givenchy</span> : souriez pour faire bomber vos pommettes et appliquez votre blush sur les bombées !</em></p>"
+
+msgid "look1-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong> : Les teintes peuvent être utilisées en duo ou en trio. Pour une utilisation en quatuor, nous vous conseillons d’appliquer d’abord la teinte basse (en bas à gauche) sur toute la paupière puis d’utiliser la teinte en haut à gauche en liner pour souligner le regard, d’appliquer ensuite la teinte en haut à droite pour sculpter et enfin utiliser l’enluminateur (en bas à droite) sous le sourcil et /ou dans le coin externe de l’œil pour finir sur une touche éclatante. Si vous le souhaitez, vous pouvez également apposer une teinte sous l’œil !</p><p><strong>Crayon Yeux Magic Khôl</strong> : Dessinez un trait de Magic Khôl au ras des cils supérieurs pour intensifier la profondeur du regard.<br /><br /><strong>Le Prisme Yeux Mono</strong> : Appliquez cette teinte pour densifier la teinte des ombres à paupières précédemment appliquées en mélangeant les 4 textures ou en utilisant la texture la plus pailletée pour un regard lumineux (teinte en bas à droite).</p><p><strong>Soin Cils Mister Lash Booster</strong> : Son embout haute précision saisit tous les cils, même les plus petits, grâce à une gestuelle très simple. Tout d’abord, ôtez le capot puis tournez la base du produit pour libérer la juste dose de sérum. Déposez le produit à la racine des cils et massez délicatement. Etirez la texture jusqu’à la pointe,  comme un mascara classique. Procédez de même pour les cils inférieurs.<br /><br /><em><span>Petite astuce Givenchy</span> : Idéal aussi pour les sourcils !</em><br /><br />Si vous souhaitez un résultat vraiment naturel, arrêtez-vous à cette étape-là…vos cils seront tout simplement gainés sans être colorés…</p><p>Pour un regard plus accentué, appliquez le mascara suivant : <br /><br /><strong>Mascara Phenomen’Eyes Effet Extension</strong> : Orientée verticalement, la brosse va « pousser » sur la racine : ce geste va séparer les cils et leur imprimer un recourbement jusqu’à la pointe. Inclinée en diagonale, la brosse peigne dès la racine les cils situés aux coins des yeux. Maintenue à l’horizontale, vous pouvez la faire rouler sur les cils supérieurs comme une brosse de brushing. Maquiller délicatement les cils inférieurs justes après les cils supérieurs, sans recharger la brosse ou bien essuyer le surplus de texture sur le col de la flaconnette.</p>"
+
+msgid "look1-application-Eyebrows"
+msgstr "<p><strong>Crayon Sourcils Eyebrow Show</strong> : Utilisez ce crayon à sec le jour pour un fini naturel ou mouillé le soir pour un fini plus sophisitiqué.</p>"
+
+msgid "look1-application-Lips"
+msgstr "<p><strong>Crayon Lèvres Lip Liner</strong> : Choisissez une nuance de Lip Liner proche de celle de votre rouge à lèvres ou gloss. Surlignez le contour avec précision pour sculpter un volume très sensuel. Coloriez toute la bouche pour favoriser une meilleure tenue de la couleur et obtenir un rendu naturel.<br/><br/><strong>Gloss Gelée d’Interdit</strong> : Pour un look « nude », appliquez la Gelée d’Interdit qui rehaussera la carnation naturelle de vos lèvres grâce à ses couleurs subtiles. La brillance de la texture et des nacres rendront vos lèvres plus pulpeuses.</p>"
+
+# LOOK2
+msgid "look2-application-Skincare"
+msgstr "<p><strong>Crème Fondante (ou Onctueuse selon le type de peau) Hydratation Lumière Hydra Sparkling</strong> : Appliquez la crème Hydra Sparkling sur votre visage. Votre peau sera réhydratée, douce et veloutée. Elle rayonnera d’une lumière pure et étincelante de fraîcheur.</p>"
+
+msgid "look2-application-Complexion"
+msgstr "<p><strong>Base de Teint, Acti’Mine</strong> : Pour éclairer une peau terne, activez-en l’éclat avec Acti’Mine. Véritable    « booster de lumière » des teints « jaunes » ou « gris », Acti’Mine apporte de l’éclat tout en transparence et matité. Appliquez-le directement sur la peau ou mélangé à votre crème hydratante ou à votre fond de teint.<br /><br/><strong>Anticernes Mister Light </strong>: Ce stylo magicien agit comme un chasseur d’ombres. Appliquez-le avant  (ou après) votre fond de teint, sous les yeux et la zone T pour atténuer les traces de fatigues et les petits défauts de la peau.<br /><br /><em><span>Petite astuce Givenchy</span> : Vous pouvez aussi l’appliquer sur l’arc de cupidon pour ourler délicatement le dessus des lèvres.</em><br /><br /><strong>Fond de Teint Photo’Perfexion</strong> : Déposez une goutte de texture dans le creux de la main et chauffez-la avec les doigts pour fluidifier la matière. Appliquez ensuite aux doigts sur la zone T : front-nez-menton. Estompez doucement vers l’extérieur du visage en mouvements ascendants.</p><p><strong>Prisme Libre </strong>: La gestuelle inédite «Shake & Mix» qui consiste à secouer puis à mélanger les teintes sur le tamis, permet une application précise et rapide. Mélangez toutes les teintes, pour unifier votre visage d’un éclat naturel, ou utilisez-les en touches pour matifier ou illuminer les points clés du visage. <br /><br />Vous pouvez également utiliser Le Prisme Visage (poudre compacte) pour obtenir le même effet.</p><p><strong>Le Prisme Blush </strong>: Pour illuminer votre teint en un seul geste, mélangez les teintes des 4 dômes et appliquez la poudre sur vos pommettes. Pour un teint plus sophistiqué, utilisez chaque teinte séparément, pour un éclat sur-mesure.<br /><br /><em><span>Petite astuce Givenchy</span> : souriez pour faire bomber vos pommettes et appliquez votre blush sur les bombées !</em></p>"
+
+msgid "look2-application-Eyes"
+msgstr "<p><strong>Crayon Yeux Magic Khôl</strong> : Dessinez un trait de Magic Khôl au ras des cils supérieurs pour intensifier la profondeur du regard. Estompez légèrement la matière sur votre paupière avec votre doigt.<br /><br /><strong>Le Prisme Yeux Mono</strong> : Pour un maquillage facile, mélangez les teintes à l’aide de l’applicateur d’un geste circulaire. Pour un maquillage plus sophistiqué, prélevez chaque texture séparément afin d’obtenir un résultat maquillage sur-mesure en sculptant votre regard. </p><p><strong>Mascara Phenomen’Eyes</strong> : Orientée verticalement, la brosse va « pousser » sur la racine : ce geste va séparer les cils et leur imprimer un recourbement jusqu’à la pointe. Inclinée en diagonale, la brosse peigne dès la racine les cils situés aux coins des yeux. <br /><br />Maintenue à l’horizontale, vous pouvez la faire rouler sur les cils supérieurs comme une brosse de brushing. Maquiller délicatement les cils inférieurs justes après les cils supérieurs, sans recharger la brosse ou bien essuyer le surplus de texture sur le col de la flaconnette.</p>"
+
+msgid "look2-application-Eyebrows"
+msgstr "<p><strong>Crayon Sourcils Eyebrow Show </strong>: Utilisez ce crayon à sec le jour pour un fini naturel ou mouillé le soir pour un fini plus sophisitiqué.</p>"
+
+msgid "look2-application-Lips"
+msgstr "<p><strong>Crayon Lèvres Lip Liner </strong>: Choisissez une nuance de Lip Liner proche de celle de votre rouge à lèvres ou gloss. Surlignez le contour avec précision pour sculpter un volume très sensuel. Coloriez toute la bouche pour favoriser une meilleure tenue de la couleur et obtenir un rendu naturel.</p><p><strong>Rouge à Lèvres Rouge Interdit </strong>: Appliquez votre rouge à lèvres puis lissez du doigt pour imprégner la bouche de pigments, la tenue sera améliorée par cette action mécanique. Appliquez une deuxième couche pour un résultat plus riche.</p>"
+
+# LOOK3
+msgid "look3-application-Skincare"
+msgstr "<p><strong>Crème Fondante (ou Onctueuse selon le type de peau) Hydratation Lumière Hydra Sparkling </strong>: Appliquez la crème Hydra Sparkling sur votre visage. Votre peau sera réhydratée, douce et veloutée. Elle rayonnera d’une lumière pure et étincelante de fraîcheur.</p>"
+
+msgid "look3-application-Complexion"
+msgstr "<p><strong>Anticernes Mister Light </strong>: Ce stylo magicien agit comme un chasseur d’ombres. Appliquez-le avant  (ou après) votre fond de teint, sous les yeux et la zone T pour atténuer les traces de fatigues et les petits défauts de la peau. <br /><br /><em><span>Petite astuce Givenchy</span> : Vous pouvez aussi l’appliquer sur l’arc de cupidon pour ourler délicatement le dessus des lèvres.</em></p><p><strong>Bonne mine, Mister Radiant </strong>: Modulez-le à volonté, du naturel à l’aspect bonne mine, en multipliant les applications. Il peut servir de base sous une poudre pour préparer la peau, même en hiver sous un fond de teint, ou seul pour unifier simplement un bronzage naturel. </p><p><strong>Poudre Visage, Le Prismissime Visage</strong> : Une palette à utiliser à l’instinct, en osant les mélanges de nuances et les jeux de textures (mate et brillante) pour révéler la beauté du visage. </p><p> <strong>Le Prisme Blush </strong>: Pour illuminer votre teint en un seul geste, mélangez les teintes des 4 dômes et appliquez la poudre sur vos pommettes. Pour un teint plus sophistiqué, utilisez chaque teinte séparément, pour un éclat sur-mesure.<br /><br/><em><span>Petite astuce Givenchy</span> : souriez pour faire bomber vos pommettes et appliquez votre blush sur les bombées !</em></p>"
+
+msgid "look3-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong> : Les teintes peuvent être utilisées en duo ou en trio. Pour une utilisation en quatuor, nous vous conseillons d’appliquer d’abord la teinte basse (en bas à gauche) sur toute la paupière puis d’utiliser la teinte en haut à gauche en liner pour souligner le regard, d’appliquer ensuite la teinte en haut à droite pour sculpter et enfin utiliser l’enluminateur (en bas à droite) sous le sourcil et /ou dans le coin externe de l’œil pour finir sur une touche éclatante. Si vous le souhaitez, vous pouvez également apposer une teinte sous l’œil.</p><p><strong>Mascara Phenomen’Eyes Effet Extension</strong> : Orientée verticalement, la brosse va « pousser » sur la racine : ce geste va séparer les cils et leur imprimer un recourbement jusqu’à la pointe. Inclinée en diagonale, la brosse peigne dès la racine les cils situés aux coins des yeux. Maintenue à l’horizontale, vous pouvez la faire rouler sur les cils supérieurs comme une brosse de brushing. Maquiller délicatement les cils inférieurs justes après les cils supérieurs, sans recharger la brosse ou bien essuyer le surplus de texture sur le col de la flaconnette.</p>"
+
+msgid "look3-application-Eyebrows"
+msgstr "<p><strong>Crayon Fixateur Mister Eyebrow </strong>: dessinez et disciplinez parfaitement vos sourcils ! Vos sourcils sont lissés et naturellement brillants.</p>"
+
+msgid "look3-application-Lips"
+msgstr "<p><strong>Crayon Lèvres Lip Liner</strong> : Choisissez une nuance de Lip Liner proche de celle de votre rouge à lèvres ou gloss. Surlignez le contour avec précision pour sculpter un volume très sensuel. Coloriez toute la bouche pour favoriser une meilleure tenue de la couleur et obtenir un rendu naturel.</p><p><strong>Rouge à Lèvres Rouge Interdit</strong> : Appliquez votre rouge à lèvres puis lissez du doigt pour imprégner la bouche de pigments, la tenue sera améliorée par cette action mécanique. Appliquez une deuxième couche pour un résultat plus riche.<br /><br /><strong>Gloss Gelée d’Interdit</strong> : Appliquez la Gelée d’Interdit en top coat pour un effet glossy et sophistiqué. La brillance de la texture et des nacres rendront vos lèvres plus pulpeuses.</p>"
+
+# LOOK4
+msgid "look4-application-Skincare"
+msgstr "<p><strong>Crème Fondante (ou Onctueuse selon le type de peau) Hydratation Lumière Hydra Sparkling</strong> : Appliquez la crème  Hydra Sparkling sur votre visage. Votre peau sera réhydratée, douce et veloutée. Elle rayonnera d’une lumière pure et étincelante de fraîcheur.</p>"
+
+msgid "look4-application-Complexion"
+msgstr "<p><strong>Anticernes Mister Light</strong> : Ce stylo magicien agit comme un chasseur d’ombres. Appliquez-le avant  (ou après) votre fond de teint, sous les yeux et la zone T pour atténuer les traces de fatigues et les petits défauts de la peau. <br /><br /><em><span>Petite astuce Givenchy</span> : Vous pouvez aussi l’appliquer sur l’arc de cupidon pour ourler délicatement le dessus des lèvres.</em><br/><br /><strong>Fond de Teint Photo’Perfexion</strong> : Déposez une goutte de texture dans le creux de la main et chauffez-la avec les doigts pour fluidifier la matière. Appliquez ensuite aux doigts sur la zone T : front-nez-menton. Estompez doucement vers l’extérieur du visage en mouvements ascendants.</p><p><strong>Le Prisme Libre</strong> : La gestuelle inédite «Shake & Mix» qui consiste à secouer puis à mélanger les teintes sur le tamis, permet une application précise et rapide. Mélangez toutes les teintes, pour unifier votre visage d’un éclat naturel, ou utilisez-les en touches pour matifier ou illuminer les points clés du visage.  <br /><br />Vous pouvez également utiliser Le Prisme Visage (poudre compacte) pour obtenir le même effet.</p><p><strong>Le Prisme Blush</strong> : Pour illuminer votre teint en un seul geste, mélangez les teintes des 4 dômes et appliquez la poudre sur vos pommettes. Pour un teint plus sophistiqué, utilisez chaque teinte séparément, pour un éclat sur-mesure.<br /><br /><em><span>Petite astuce Givenchy</span> : souriez pour faire bomber vos pommettes et appliquez votre blush sur les bombées !</em></p>"
+
+msgid "look4-application-Eyebrows"
+msgstr "<p><strong>Crayon Sourcils Eyebrow Show </strong>: Utilisez ce crayon à sec le jour pour un fini naturel ou mouillé le soir pour un fini plus sophisitiqué.</p>"
+
+msgid "look4-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong> : Les teintes peuvent être utilisées en duo ou en trio. Pour une utilisation en quatuor, nous vous conseillons d’appliquer d’abord la teinte basse (en bas à gauche) sur toute la paupière mobile puis d’utiliser la teinte en haut à gauche en liner pour souligner le regard, d’appliquer ensuite la teinte en haut à droite pour sculpter et enfin utiliser l’enluminateur (teinte en bas à droite) sous le sourcil et/ou dans le coin externe de l’œil pour finir sur une touche éclatante. Apposez une autre teinte sous l’œil. <br /><br /><strong>Crayon Yeux Magic Khôl</strong> : Dessinez un trait de Magic Khôl à l’intérieur de l’œil pour intensifier la profondeur du regard et agrandir l’œil (avec un crayon blanc).</p><p><strong>Liner, Parad’Eyes Liner </strong>: La forme du trait doit être plus fine au coin interne de l’œil et aller en s’élargissant jusqu’au coin externe : appuyez moins fort sur le pinceau au début puis de plus en plus fort en vous éloignant vers l’extérieur.</p><p><strong>Mascara Phenomen’Eyes</strong> : Orientée verticalement, la brosse va « pousser » sur la racine : ce geste va séparer les cils et leur imprimer un recourbement jusqu’à la pointe. Inclinée en diagonale, la brosse peigne dès la racine les cils situés aux coins des yeux. Maintenue à l’horizontale, vous pouvez la faire rouler sur les cils supérieurs comme une brosse de brushing. Maquiller délicatement les cils inférieurs justes après les cils supérieurs, sans recharger la brosse ou bien essuyer le surplus de texture sur le col de la flaconnette.</p>"
+
+msgid "look4-application-Lips"
+msgstr "<p><strong>Rouge à Lèvres Rouge Interdit</strong> : Appliquez votre rouge à lèvres puis lissez du doigt pour imprégner la bouche de pigments, la tenue sera améliorée par cette action mécanique. Appliquez une deuxième couche pour un résultat plus riche.</p>"
+
+# LOOK5
+msgid "look5-application-Skincare"
+msgstr "<p><strong>Crème Fondante (ou Onctueuse selon le type de peau) Hydratation Lumière Hydra Sparkling</strong> : Appliquez la crème Hydra Sparkling sur votre visage. Votre peau sera réhydratée, douce et veloutée. Elle rayonnera d’une lumière pure et étincelante de fraîcheur.</p>"
+
+msgid "look5-application-Complexion"
+msgstr "<p><strong>Fond de Teint Photo’Perfexion </strong>: Déposez une goutte de texture dans le creux de la main et chauffez-la avec les doigts pour fluidifier la matière. Appliquez ensuite aux doigts sur la zone T : front-nez-menton. Estompez doucement vers l’extérieur du visage en mouvements ascendants.<br /><br /><strong>Anticernes Mister Light </strong>: Ce stylo magicien agit comme un chasseur d’ombres. Appliquez-le avant  (ou après) votre fond de teint, sous les yeux et la zone T pour atténuer les traces de fatigues et les petits défauts de la peau. <br /><br /><em><span>Petite astuce Givenchy</span> : Vous pouvez aussi l’appliquer sur l’arc de cupidon pour ourler délicatement le dessus des lèvres.</em><br /><br /><strong>Enlumineur Mister Bright</strong> : A appliquer par touches sur les pommettes, l’arcade sourcilière, les paupières, le creux interne de l’œil et les tempes.</p><p><strong>Le Prisme Blush</strong> : Pour illuminer votre teint en un seul geste, mélangez les teintes des 4 dômes et appliquez la poudre sur vos pommettes. Pour un teint plus sophistiqué, utilisez chaque teinte séparément, pour un éclat sur-mesure.<br /><br /><em><span>Petite astuce Givenchy</span> : souriez pour faire bomber vos pommettes et appliquez votre blush sur les bombées !</em></p>"
+
+msgid "look5-application-Eyes"
+msgstr "<p><strong>Crayon Yeux Magic Khôl</strong> : Pour un effet smoky, appliquer le Magic Khôl sur toute la paupière. Estompez légèrement la matière sur votre paupière avec votre doigt pour donner l’effet souhaité.</p><p><strong>Le Prisme Yeux Mono</strong> : Appliquez l’ombre à paupière par-dessus le crayon Magic Khôl estompé pour apporter de la matière et des nacres.<br /><br /><strong>Mascara Phenomen’Eyes</strong> : Orientée verticalement, la brosse va « pousser » sur la racine : ce geste va séparer les cils et leur imprimer un recourbement jusqu’à la pointe. Inclinée en diagonale, la brosse peigne dès la racine les cils situés aux coins des yeux. <br /><br />Maintenue à l’horizontale, vous pouvez la faire rouler sur les cils supérieurs comme une brosse de brushing. Maquiller délicatement les cils inférieurs justes après les cils supérieurs, sans recharger la brosse ou bien essuyer le surplus de texture sur le col de la flaconnette.</p>"
+
+msgid "look5-application-Eyebrows"
+msgstr "<p><strong>Crayon Sourcils Eyebrow Show </strong>: Utilisez ce crayon à sec le jour pour un fini naturel ou mouillé le soir pour un fini plus sophisitiqué.</p>"
+
+msgid "look5-application-Lips"
+msgstr "<p><strong>Crayon Lèvres Lip Liner</strong> : Choisissez une nuance de Lip Liner proche de celle de votre rouge à lèvres ou gloss. Surlignez le contour avec précision pour sculpter un volume très sensuel. Estompez la teinte vers l’intérieur des lèvres pour plus de naturel.</p><p><strong>Rouge à Lèvres Rouge Interdit</strong> : Appliquez votre rouge à lèvres puis lissez du doigt pour imprégner la bouche de pigments, la tenue sera améliorée par cette action mécanique. Appliquez une deuxième couche pour un résultat plus riche.</p>"
+
+##################################################
+#					PRODUCTS | and :: SEPARATED
+##################################################
+msgid "look1-products"
+msgstr "Crème Hydratante Hydra Sparkling::http://www.parfumsgivenchy.fr/creme-fondante-hydratation-lumiere.html|Mister Light n°1 (Mister Meringue)::http://www.parfumsgivenchy.fr/mister-light.html|Photo'Perfexion Light n°2 (Light Shell)::http://www.parfumsgivenchy.fr/photo-perfexion-light.html|Mister Mat::http://www.parfumsgivenchy.fr/mister-mat.html|Le Prisme Blush n°21 (Inspiration Rose)::http://www.parfumsgivenchy.fr/le-prisme-blush.html|Le Prisme Yeux Quatuor n°71 (Purple Show)::http://www.parfumsgivenchy.fr/le-prisme-yeux-quatuor.html|Magic Khôl n°7 (Beige Pearl)::http://www.parfumsgivenchy.fr/magic-khol.html|#Le Prisme Yeux Mono n°14 (Elegant Taupe)::http://www.parfumsgivenchy.fr/le-prisme-yeux-mono.html|Mister Lash Booster::http://www.parfumsgivenchy.fr/mister-lash-booster.html|Phenomen'Eyes Effet Extension n°1 (Extension Black)::http://www.parfumsgivenchy.fr/phenomen-eyes-effet-extension.html|Eyebrow Show n°3 (Blonde Show)::http://www.parfumsgivenchy.fr/eyebrow-show.html|Lip Liner n°12 (Lip Nude)::http://www.parfumsgivenchy.fr/lip-liner.html|Gelée d’Interdit n°12 (Elegant Nude)::http://www.parfumsgivenchy.fr/gelee-d-interdit.html|"
+
+msgid "look2-products"
+msgstr "Crème Hydratante Hydra Sparkling::http://www.parfumsgivenchy.fr/creme-fondante-hydratation-lumiere.html|Actimine n°3 (Acti Kiwi)::http://www.parfumsgivenchy.fr/acti-mine.html|Mister Light n°1 (Mister Meringue)::http://www.parfumsgivenchy.fr/mister-light.html|Photo'perfexion n°4 (Perfect Vanilla)::http://www.parfumsgivenchy.fr/photo-perfexion.html|Le Prisme Libre n°2 (Delicate Beige)::http://www.parfumsgivenchy.fr/prisme-libre.html|Le Prisme Blush n°22 (Vintage Pink)::http://www.parfumsgivenchy.fr/le-prisme-blush.html|Magic Khôl n°1 (Black)::http://www.parfumsgivenchy.fr/magic-khol.html|#Le Prisme Yeux Mono n°12 (Casual Khaki)::http://www.parfumsgivenchy.fr/le-prisme-yeux-mono.html|Phenomen'Eyes (Phenomen’Black)::http://www.parfumsgivenchy.fr/phenomen-eyes.html|Eyebrow Show n°1 (Brunette Show)::http://www.parfumsgivenchy.fr/eyebrow-show.html|Lip Liner n°2 (Lip Litchi)::http://www.parfumsgivenchy.fr/lip-liner.html|Rouge Interdit n°6 (Precious Rose)::http://www.parfumsgivenchy.fr/rouge-interdit.html|"
+
+msgid "look3-products"
+msgstr "Crème Hydratante Hydra Sparkling::http://www.parfumsgivenchy.fr/creme-fondante-hydratation-lumiere.html|Mister Light n°3 (Mister Toast)::http://www.parfumsgivenchy.fr/mister-light.html|Mister Radiant::http://www.parfumsgivenchy.fr/mister-radiant.html|Le Prismissime Visage n°73 (Sun Caramel)::http://www.parfumsgivenchy.fr/le-prismissime-visage.html|Le Prisme Blush n°25 (In-Vogue Orange)::http://www.parfumsgivenchy.fr/le-prisme-blush.html|Le Prisme Yeux Quatuor n°6 (Sienna Silhouette)::http://www.parfumsgivenchy.fr/le-prisme-yeux-quatuor.html|Phenomen'Eyes Effet Extension n°1 (Extension Black)::http://www.parfumsgivenchy.fr/phenomen-eyes-effet-extension.html|Mister Eyebrow::http://www.parfumsgivenchy.fr/mister-eyebrow.html|Lip Liner n°12 (Lip Nude)::http://www.parfumsgivenchy.fr/lip-liner.html|Rouge Interdit n°14 (Fruity Orange)::http://www.parfumsgivenchy.fr/rouge-interdit.html|Gelée d’Interdit n°13 (Dazzling Caramel)::http://www.parfumsgivenchy.fr/gelee-d-interdit.html|"
+
+msgid "look4-products"
+msgstr "Crème Hydratante Hydra Sparkling::http://www.parfumsgivenchy.fr/creme-fondante-hydratation-lumiere.html|Mister Light n°2 (Mister Milk)::http://www.parfumsgivenchy.fr/mister-light.html|Photo'Perfexion n°4 (Perfect Vanilla)::http://www.parfumsgivenchy.fr/photo-perfexion.html|Le Prisme Libre n°2 (Delicate Beige)::http://www.parfumsgivenchy.fr/prisme-libre.html|Le Prisme Blush n°23 (Aficionado Peach)::http://www.parfumsgivenchy.fr/le-prisme-blush.html|Le Prisme Yeux Quatuor n°72 (Midnight Look)::http://www.parfumsgivenchy.fr/le-prisme-yeux-quatuor.html|Magic Khôl n°2 (White)::http://www.parfumsgivenchy.fr/magic-khol.html|Parad'Eyes Liner n°1 (Dream in Black)::http://www.parfumsgivenchy.fr/parad-eyes-liner.html|Phenomen'Eyes n°1 (Phenomen’ Black)::http://www.parfumsgivenchy.fr/phenomen-eyes.html|Eyebrow Show n°2 (Brown Show)::http://www.parfumsgivenchy.fr/eyebrow-show.html|Rouge Interdit n°12 (Sensual Rose)::http://www.parfumsgivenchy.fr/rouge-interdit.html|"
+
+msgid "look5-products"
+msgstr "Crème Hydratante Hydra Sparkling::http://www.parfumsgivenchy.fr/creme-fondante-hydratation-lumiere.html|Photo'Perfexion n°8 (Perfect Amber)::http://www.parfumsgivenchy.fr/photo-perfexion.html|Mister Light n°3 (Mister Toast)::http://www.parfumsgivenchy.fr/mister-light.html|Mister Bright n°72 (Sun Light)::http://www.parfumsgivenchy.fr/mister-bright.html|Le Prisme Blush n°25 (In-Vogue Orange)::http://www.parfumsgivenchy.fr/le-prisme-blush.html|Magic Khôl n°1 (Black)::http://www.parfumsgivenchy.fr/magic-khol.html|#Prisme Yeux mono n°1 (Showy Black) ::http://www.parfumsgivenchy.fr/le-prisme-yeux-mono.html|Phenomen'Eyes n°1 (Phenomen’ Black)::http://www.parfumsgivenchy.fr/phenomen-eyes.html|Eyebrow Show n°1 (Brunette Show)::http://www.parfumsgivenchy.fr/eyebrow-show.html|Lip Liner n°5 (Lip Rouge)::http://www.parfumsgivenchy.fr/lip-liner.html|Rouge Interdit n°17 (Rouge Cancan)::http://www.parfumsgivenchy.fr/rouge-interdit.html|"
+

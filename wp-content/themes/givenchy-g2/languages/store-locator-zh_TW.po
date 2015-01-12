@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: givenchy G2 - store-locator\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: timsi lamine <timsi.lamine@gmail.com>\n"
+"Language-Team: ABCP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "lang"
+msgstr "cn_tw"
+
+msgid "Produits :"
+msgstr "產品"
+
+msgid "perfume"
+msgstr "香氛系列"
+
+msgid "makeup"
+msgstr "彩妝系列"
+
+msgid "care"
+msgstr "保養系列"
+
+msgid "spa"
+msgstr "Spas"
+
+msgid "search-for-sales-point"
+msgstr "那裏買"
+
+msgid "find-sales-point"
+msgstr "尋找銷售點"
+
+msgid "default-query"
+msgstr "國家, 城市, 地址…."
+
+msgid "locate-me"
+msgstr "需要我們幫妳找到離妳最近的銷售點嗎?"
+

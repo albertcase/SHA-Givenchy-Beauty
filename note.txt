@@ -1,0 +1,921 @@
+Array
+(
+    [1677] => stdClass Object
+        (
+            [ID] => 1677
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:59
+            [post_date_gmt] => 2012-09-18 09:19:59
+            [post_content] => 丰盈柔润的慕状，加水即变为轻盈柔软细致的泡沫。维他命E和医用柠檬酸成分，不仅深层净肤，深入排毒、抗氧化，更令暗沉肤色焕然一新，恢复亮白。
+
+            [post_title] => 净白洁肤乳 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e6%b4%81%e8%82%a4%e4%b9%b3
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:59
+            [post_modified_gmt] => 2012-09-18 09:19:59
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1677
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/67.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1682] => stdClass Object
+        (
+            [ID] => 1682
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:58
+            [post_date_gmt] => 2012-09-18 09:19:58
+            [post_content] => 能有效去除老废角质，清凉质地更能进一步收敛毛孔，使肌肤恢复紧致和白皙，更有助于后续产品的吸收。
+
+            [post_title] => 净白爽肤水 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e7%88%bd%e8%82%a4%e6%b0%b4
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:58
+            [post_modified_gmt] => 2012-09-18 09:19:58
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1682
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/68.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1685] => stdClass Object
+        (
+            [ID] => 1685
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:58
+            [post_date_gmt] => 2012-09-18 09:19:58
+            [post_content] => 清爽水凝质地，集美白、保湿及舒缓镇定肌肤三效合一的柔肤水。
+
+            [post_title] => 净白柔肤水 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e6%9f%94%e8%82%a4%e6%b0%b4
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:58
+            [post_modified_gmt] => 2012-09-18 09:19:58
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1685
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/69.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1688] => stdClass Object
+        (
+            [ID] => 1688
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:58
+            [post_date_gmt] => 2012-09-18 09:19:58
+            [post_content] => 浓缩了20重美白功效，“医学级”的卓著美白奇迹，更高效，更精准，更安全；能够在黑色素形成前预防，形成中阻断，形成后亮白，全方位亮白、 淡斑、均匀肤色，令肌肤如羊脂白玉般净，透，润，白。
+
+            [post_title] => 净白精华露 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e7%b2%be%e5%8d%8e%e9%9c%b2
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:58
+            [post_modified_gmt] => 2012-09-18 09:19:58
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1688
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/70.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1691] => stdClass Object
+        (
+            [ID] => 1691
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:58
+            [post_date_gmt] => 2012-09-18 09:19:58
+            [post_content] => 升级版密集型疗程式美白护理，创新“臻白精萃”精纯配方+ 加强型抗黑色素复合物，连续21晚，每晚两滴，高效排毒, 强效改善面部斑点的大小面积和深度,改善暗黄,收敛毛孔。令肤色更明亮剔透、富有活力，即获梦寐以求的白皙亮泽！
+
+            [post_title] => 净白盈采密集护理精华液 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e5%af%86%e9%9b%86%e6%8a%a4%e7%90%86%e7%b2%be%e5%8d%8e%e6%b6%b2
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:58
+            [post_modified_gmt] => 2012-09-18 09:19:58
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1691
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/71.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1694] => stdClass Object
+        (
+            [ID] => 1694
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:58
+            [post_date_gmt] => 2012-09-18 09:19:58
+            [post_content] => 提取甘草根萃取物，特殊“高精准涂抹器”，一款不用手即可涂抹的美白眼霜。强效淡化眼周黯沉，同时平滑细纹及鱼尾纹，莹亮眼周。
+
+            [post_title] => 净白盈采明眸笔 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e6%98%8e%e7%9c%b8%e7%ac%94
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:58
+            [post_modified_gmt] => 2012-09-18 09:19:58
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1694
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/72.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+)
+Array
+(
+    [1531] => stdClass Object
+        (
+            [ID] => 1531
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 超人气明星散粉。 超声波震动雾化技术使粉质如羽毛般轻盈柔软，比普通散粉细1000倍，完美贴合肌肤，四色混合使用，均匀提亮。
+            [post_title] => 轻盈无痕明星散粉
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e8%bd%bb%e7%9b%88%e6%97%a0%e7%97%95%e6%98%8e%e6%98%9f%e6%95%a3%e7%b2%89-4
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1531
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/30.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1536] => stdClass Object
+        (
+            [ID] => 1536
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 纪梵希经典四宫格粉饼，有着20年的历史，7年的研发。彩妆师首选。4种色调打造15种明亮肤色。
+            [post_title] => 幻影四宫格粉饼
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%b9%bb%e5%bd%b1%e5%9b%9b%e5%ae%ab%e6%a0%bc%e7%b2%89%e9%a5%bc
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1536
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/31.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1541] => stdClass Object
+        (
+            [ID] => 1541
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 9种颜色，多种用途，大胆玩出自己的浪漫个性色彩，塑造明亮肌肤。珠光质地还可当做眼影使用。均匀肤色，修饰轮廓，两种质地，适合所有人群。
+            [post_title] => 幻影九宫格粉饼
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%b9%bb%e5%bd%b1%e4%b9%9d%e5%ae%ab%e6%a0%bc%e7%b2%89%e9%a5%bc
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1541
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/22.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+)
+Array
+(
+    [1531] => stdClass Object
+        (
+            [ID] => 1531
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 超人气明星散粉。 超声波震动雾化技术使粉质如羽毛般轻盈柔软，比普通散粉细1000倍，完美贴合肌肤，四色混合使用，均匀提亮。
+            [post_title] => 轻盈无痕明星散粉
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e8%bd%bb%e7%9b%88%e6%97%a0%e7%97%95%e6%98%8e%e6%98%9f%e6%95%a3%e7%b2%89-4
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1531
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/30.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1536] => stdClass Object
+        (
+            [ID] => 1536
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 纪梵希经典四宫格粉饼，有着20年的历史，7年的研发。彩妆师首选。4种色调打造15种明亮肤色。
+            [post_title] => 幻影四宫格粉饼
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%b9%bb%e5%bd%b1%e5%9b%9b%e5%ae%ab%e6%a0%bc%e7%b2%89%e9%a5%bc
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1536
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/31.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [1541] => stdClass Object
+        (
+            [ID] => 1541
+            [post_author] => 1
+            [post_date] => 2012-09-18 13:50:51
+            [post_date_gmt] => 2012-09-18 05:50:51
+            [post_content] => 9种颜色，多种用途，大胆玩出自己的浪漫个性色彩，塑造明亮肌肤。珠光质地还可当做眼影使用。均匀肤色，修饰轮廓，两种质地，适合所有人群。
+            [post_title] => 幻影九宫格粉饼
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%b9%bb%e5%bd%b1%e4%b9%9d%e5%ae%ab%e6%a0%bc%e7%b2%89%e9%a5%bc
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 13:50:51
+            [post_modified_gmt] => 2012-09-18 05:50:51
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1541
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/22.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+)
+66666Array
+(
+    [4] => Array
+        (
+            [1] => 1700
+            [2] => 1703
+            [3] => 1706
+        )
+
+    [3] => Array
+        (
+            [1] => 1697
+        )
+
+    [2] => Array
+        (
+            [1] => 1688
+            [2] => 1691
+            [3] => 1694
+        )
+
+    [1] => Array
+        (
+            [1] => 1677
+            [2] => 1682
+            [3] => 1685
+        )
+
+)
+WP_Query Object
+(
+    [query_vars] => Array
+        (
+            [category_name] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e7%b3%bb%e5%88%97
+            [error] => 
+            [m] => 0
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [tag] => 
+            [cat] => 269
+            [tag_id] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [meta_query] => Array
+                (
+                )
+
+            [ignore_sticky_posts] => 
+            [suppress_filters] => 
+            [cache_results] => 1
+            [update_post_term_cache] => 1
+            [update_post_meta_cache] => 1
+            [post_type] => 
+            [posts_per_page] => 6
+            [nopaging] => 
+            [comments_per_page] => 50
+            [no_found_rows] => 
+            [order] => DESC
+            [orderby] => wp_2_posts.post_date DESC
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                    [0] => Array
+                        (
+                            [taxonomy] => category
+                            [terms] => Array
+                                (
+                                    [0] => %E5%87%80%E7%99%BD%E7%9B%88%E9%87%87%E7%B3%BB%E5%88%97
+                                )
+
+                            [include_children] => 1
+                            [field] => slug
+                            [operator] => IN
+                        )
+
+                )
+
+            [relation] => AND
+        )
+
+    [post_count] => 6
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 10
+    [max_num_pages] => 2
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 1
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 1
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash] => 50b35edbad96b924e38aac3bb91a9111
+    [query_vars_changed] => 
+    [query] => Array
+        (
+            [category_name] => %E6%8A%A4%E8%82%A4/%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF-%E6%8A%A4%E8%82%A4/%E5%87%80%E7%99%BD%E7%9B%88%E9%87%87%E7%B3%BB%E5%88%97
+        )
+
+    [request] =>  SELECT SQL_CALC_FOUND_ROWS  wp_2_posts.* FROM wp_2_posts  INNER JOIN wp_2_term_relationships ON (wp_2_posts.ID = wp_2_term_relationships.object_id) WHERE 1=1  AND ( wp_2_term_relationships.term_taxonomy_id IN (270) ) AND wp_2_posts.post_type = 'post' AND (wp_2_posts.post_status = 'publish') GROUP BY wp_2_posts.ID ORDER BY wp_2_posts.post_date DESC LIMIT 0, 6
+    [posts] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 1677
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:59
+                    [post_date_gmt] => 2012-09-18 09:19:59
+                    [post_content] => 丰盈柔润的慕状，加水即变为轻盈柔软细致的泡沫。维他命E和医用柠檬酸成分，不仅深层净肤，深入排毒、抗氧化，更令暗沉肤色焕然一新，恢复亮白。
+
+                    [post_title] => 净白洁肤乳 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e6%b4%81%e8%82%a4%e4%b9%b3
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:59
+                    [post_modified_gmt] => 2012-09-18 09:19:59
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1677
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/67.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [ID] => 1682
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:58
+                    [post_date_gmt] => 2012-09-18 09:19:58
+                    [post_content] => 能有效去除老废角质，清凉质地更能进一步收敛毛孔，使肌肤恢复紧致和白皙，更有助于后续产品的吸收。
+
+                    [post_title] => 净白爽肤水 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e7%88%bd%e8%82%a4%e6%b0%b4
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:58
+                    [post_modified_gmt] => 2012-09-18 09:19:58
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1682
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/68.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+            [2] => stdClass Object
+                (
+                    [ID] => 1685
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:58
+                    [post_date_gmt] => 2012-09-18 09:19:58
+                    [post_content] => 清爽水凝质地，集美白、保湿及舒缓镇定肌肤三效合一的柔肤水。
+
+                    [post_title] => 净白柔肤水 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e6%9f%94%e8%82%a4%e6%b0%b4
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:58
+                    [post_modified_gmt] => 2012-09-18 09:19:58
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1685
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/69.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+            [3] => stdClass Object
+                (
+                    [ID] => 1688
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:58
+                    [post_date_gmt] => 2012-09-18 09:19:58
+                    [post_content] => 浓缩了20重美白功效，“医学级”的卓著美白奇迹，更高效，更精准，更安全；能够在黑色素形成前预防，形成中阻断，形成后亮白，全方位亮白、 淡斑、均匀肤色，令肌肤如羊脂白玉般净，透，润，白。
+
+                    [post_title] => 净白精华露 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e7%b2%be%e5%8d%8e%e9%9c%b2
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:58
+                    [post_modified_gmt] => 2012-09-18 09:19:58
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1688
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/70.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+            [4] => stdClass Object
+                (
+                    [ID] => 1691
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:58
+                    [post_date_gmt] => 2012-09-18 09:19:58
+                    [post_content] => 升级版密集型疗程式美白护理，创新“臻白精萃”精纯配方+ 加强型抗黑色素复合物，连续21晚，每晚两滴，高效排毒, 强效改善面部斑点的大小面积和深度,改善暗黄,收敛毛孔。令肤色更明亮剔透、富有活力，即获梦寐以求的白皙亮泽！
+
+                    [post_title] => 净白盈采密集护理精华液 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e5%af%86%e9%9b%86%e6%8a%a4%e7%90%86%e7%b2%be%e5%8d%8e%e6%b6%b2
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:58
+                    [post_modified_gmt] => 2012-09-18 09:19:58
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1691
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/71.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+            [5] => stdClass Object
+                (
+                    [ID] => 1694
+                    [post_author] => 1
+                    [post_date] => 2012-09-18 17:19:58
+                    [post_date_gmt] => 2012-09-18 09:19:58
+                    [post_content] => 提取甘草根萃取物，特殊“高精准涂抹器”，一款不用手即可涂抹的美白眼霜。强效淡化眼周黯沉，同时平滑细纹及鱼尾纹，莹亮眼周。
+
+                    [post_title] => 净白盈采明眸笔 
+                    [post_excerpt] => 
+                    [post_status] => publish
+                    [comment_status] => open
+                    [ping_status] => open
+                    [post_password] => 
+                    [post_name] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e6%98%8e%e7%9c%b8%e7%ac%94
+                    [to_ping] => 
+                    [pinged] => 
+                    [post_modified] => 2012-09-18 17:19:58
+                    [post_modified_gmt] => 2012-09-18 09:19:58
+                    [post_content_filtered] => 
+                    [post_parent] => 0
+                    [guid] => http://www.givenchybeauty.cn/?p=1694
+                    [menu_order] => 0
+                    [post_type] => post
+                    [post_mime_type] => 
+                    [comment_count] => 0
+                    [filter] => raw
+                    [product_images] => Array
+                        (
+                            [0] => http://www.givenchybeauty.cn/files/2012/09/72.jpg
+                            [1] => 700
+                            [2] => 756
+                            [3] => 
+                        )
+
+                )
+
+        )
+
+    [post] => stdClass Object
+        (
+            [ID] => 1677
+            [post_author] => 1
+            [post_date] => 2012-09-18 17:19:59
+            [post_date_gmt] => 2012-09-18 09:19:59
+            [post_content] => 丰盈柔润的慕状，加水即变为轻盈柔软细致的泡沫。维他命E和医用柠檬酸成分，不仅深层净肤，深入排毒、抗氧化，更令暗沉肤色焕然一新，恢复亮白。
+
+            [post_title] => 净白洁肤乳 
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => open
+            [ping_status] => open
+            [post_password] => 
+            [post_name] => %e5%87%80%e7%99%bd%e6%b4%81%e8%82%a4%e4%b9%b3
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2012-09-18 17:19:59
+            [post_modified_gmt] => 2012-09-18 09:19:59
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://www.givenchybeauty.cn/?p=1677
+            [menu_order] => 0
+            [post_type] => post
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+            [product_images] => Array
+                (
+                    [0] => http://www.givenchybeauty.cn/files/2012/09/67.jpg
+                    [1] => 700
+                    [2] => 756
+                    [3] => 
+                )
+
+        )
+
+    [queried_object] => stdClass Object
+        (
+            [term_id] => 269
+            [name] => 净白盈采系列
+            [slug] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e7%b3%bb%e5%88%97
+            [term_group] => 0
+            [term_taxonomy_id] => 270
+            [taxonomy] => category
+            [description] => 净白盈采系列
+            [parent] => 264
+            [count] => 10
+            [cat_ID] => 269
+            [category_count] => 10
+            [category_description] => 净白盈采系列
+            [cat_name] => 净白盈采系列
+            [category_nicename] => %e5%87%80%e7%99%bd%e7%9b%88%e9%87%87%e7%b3%bb%e5%88%97
+            [category_parent] => 264
+        )
+
+    [queried_object_id] => 269
+)

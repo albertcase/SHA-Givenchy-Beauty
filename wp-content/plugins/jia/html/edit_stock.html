@@ -1,0 +1,23 @@
+
+店铺名称：<?php  echo $data -> name;  ?><br />
+店铺编码：<?php  echo $data -> shopid;  ?><br />
+店铺库存：<input type="text" value="<?php  echo $data -> stocknum;  ?>"   id='stocknum' /><br /> 
+店铺地址：<?php  echo $data -> address;  ?><br />
+<input type="button" value="修改 "  onClick="update_stock();" />
+
+<script type="text/javascript">
+    function update_stock(){
+        jQuery.post(ajaxurl,{
+                action:"fgame_ctl_user",
+                fgame_action:'update_stocknum',
+                ctl:'stock',
+                stocknum: document.getElementById('stocknum').value,
+                id : '<?php  echo $data -> id; ?>',
+                cookie:encodeURIComponent(document.cookie)
+            },function(e){
+				location.href = '?post_type=f_games&page=jia/f_games_ctt_stock.php';
+            }
+        )
+    }
+    
+</script>

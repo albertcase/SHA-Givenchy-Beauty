@@ -1,0 +1,53 @@
+<div id="container">
+    <div id="content" role="main">
+            <div class="user-login fill-box">
+        			<div class="Thistitle userTitle">用户登录</div>
+            		<div class="fillTip userName">
+            			<label>用户名:</label><input type="text" id='username' class="text01" Gtype="name" Gmessage="用户名应为6-20位"/>
+            		</div>
+            		<div class="fillTip password">
+            			<label>密码:</label><input type="password" id='password' class="text01" Gtype="password" Gmessage="密码应为6-20位"/>
+            		</div>
+            		<div class="fillTip">
+            			<input type="submit" class="button01 Gsubmit" value="登录" onclick="update_stock();"/>
+            			<a href="'<?php echo $this -> request_url; ?>?action=forget_password">忘记密码？</a>
+            		</div>
+        	</div>
+			
+			<div class="hidden-success" id="wrong" style="display: none; ">
+					<div class="p-attension"></div>
+					<p class="p-wrong">message</p>
+					<button value="确定">确定</button>
+			</div>
+			
+			<script type="text/javascript">
+				Gform.init(".user-login");
+			</script>
+			
+            <script type="text/javascript">
+                function update_stock(){
+                    ajaxurl = '<?php echo network_site_url('wp-admin/admin-ajax.php'); ?>';
+                    jQuery.post(ajaxurl,{
+                            action:"custom-page",
+                            custom_page_action:'do_login',
+                            custom_page_ctl:'user-admin',
+                            log: document.getElementById('username').value,
+                            pwd: document.getElementById('password').value,
+                            cookie:encodeURIComponent(document.cookie)
+                        },function(data){
+                            if(data['success']){
+                                location.href = '<?php echo network_site_url('user-admin/?action=user_admin'); ?>';
+                            }else{
+                                if(data['unactivation_user']){
+                                    location.href = '<?php echo $this -> request_url; ?>?action=register_succ&uu='+data["uu"];
+                                }else{
+                                    Gform.popDiv(data['message']);
+                                }
+                            }
+            			},'json'
+                    );
+                }
+            </script>
+	</div><!-- #content -->
+</div><!-- #container -->
+

@@ -1,0 +1,10 @@
+# Ignore configuration files that may contain sensitive information.
+.DS_Store
+.vagrant
+wp-query-log/
+files/
+p2/
+wp-content/blogs.dir/
+wp-content/uploads/
+wp-content/cache
+boardingpass/

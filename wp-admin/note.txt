@@ -1,0 +1,128 @@
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT comment_approved, COUNT( * ) AS num_comments FROM wp_2_comments  GROUP BY comment_approved
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'menu_items' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'fileupload_maxk' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'upload_space_check_disabled' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'blog_upload_space' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = '_transient_timeout_dirsize_cache' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = '_transient_dirsize_cache' LIMIT 1
+UPDATE `wp_2_options` SET `option_value` = '1343902506' WHERE `option_name` = '_transient_timeout_dirsize_cache'
+UPDATE `wp_2_options` SET `option_value` = 'a:2:{s:67:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/\";a:1:{s:4:\"size\";i:367987313;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/.svn\";a:1:{s:4:\"size\";i:417;}}' WHERE `option_name` = '_transient_dirsize_cache'
+UPDATE `wp_2_options` SET `option_value` = 'a:3:{s:67:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/\";a:1:{s:4:\"size\";i:367987313;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/.svn\";a:1:{s:4:\"size\";i:417;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/2011\";a:1:{s:4:\"size\";i:220553796;}}' WHERE `option_name` = '_transient_dirsize_cache'
+UPDATE `wp_2_options` SET `option_value` = 'a:4:{s:67:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/\";a:1:{s:4:\"size\";i:367987313;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/.svn\";a:1:{s:4:\"size\";i:417;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/2011\";a:1:{s:4:\"size\";i:220553796;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/2012\";a:1:{s:4:\"size\";i:147376786;}}' WHERE `option_name` = '_transient_dirsize_cache'
+UPDATE `wp_2_options` SET `option_value` = 'a:5:{s:67:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/\";a:1:{s:4:\"size\";i:367987313;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/.svn\";a:1:{s:4:\"size\";i:417;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/2011\";a:1:{s:4:\"size\";i:220553796;}s:71:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/2012\";a:1:{s:4:\"size\";i:147376786;}s:76:\"/var/www/html/GivenchyG2/g2-public/wp/wp-content/blogs.dir/2/files/userphoto\";a:1:{s:4:\"size\";i:56314;}}' WHERE `option_name` = '_transient_dirsize_cache'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT comment_approved, COUNT( * ) AS num_comments FROM wp_2_comments  GROUP BY comment_approved
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'menu_items' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT *    FROM wp_2_links  WHERE 1=1      ORDER BY link_name ASC
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT t.*, tt.* FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('link_category') AND tt.count > 0 ORDER BY t.name ASC 
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (1) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (5) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (3) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (4) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (6) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (2) ORDER BY t.name ASC
+SELECT t.term_id FROM wp_2_terms AS t INNER JOIN wp_2_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_2_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('link_category') AND tr.object_id IN (7) ORDER BY t.name ASC
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT comment_approved, COUNT( * ) AS num_comments FROM wp_2_comments  GROUP BY comment_approved
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'menu_items' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT comment_approved, COUNT( * ) AS num_comments FROM wp_2_comments  GROUP BY comment_approved
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'menu_items' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = '_transient_plugin_slugs' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = '_transient_timeout_plugin_slugs' LIMIT 1
+UPDATE `wp_2_options` SET `option_value` = '1343985314' WHERE `option_name` = '_transient_timeout_plugin_slugs'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT comment_approved, COUNT( * ) AS num_comments FROM wp_2_comments  GROUP BY comment_approved
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'menu_items' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_langs_list' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_no_activation_mail' LIMIT 1
+SELECT ID FROM wp_2_easymail_subscribers WHERE email='jiaron@163.com' LIMIT 1
+INSERT INTO `wp_2_easymail_subscribers` (`email`,`name`,`join_date`,`active`,`unikey`,`lists`,`lang`,`last_act`) VALUES ('jiaron@163.com','Name','2012-08-02 17:15:30','0','a961ff1b370aebf69afcab5d','|','zh','2012-08-02 17:15:30')
+SELECT * FROM wp_2_easymail_subscribers WHERE email = 'jiaron@163.com'
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_langs_list' LIMIT 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_no_activation_mail' LIMIT 1
+SELECT ID FROM wp_2_easymail_subscribers WHERE email='jiaron@163.com' LIMIT 1
+INSERT INTO `wp_2_easymail_subscribers` (`email`,`name`,`join_date`,`active`,`unikey`,`lists`,`lang`,`last_act`) VALUES ('jiaron@163.com','Name','2012-08-02 17:15:32','0','de8a9cc1afb68f0bee491f6b','|','zh','2012-08-02 17:15:32')
+SELECT * FROM wp_2_easymail_subscribers WHERE email = 'jiaron@163.com'
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1<br>SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'<br>SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'<br>SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1<br>SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_langs_list' LIMIT 1<br>SELECT option_value FROM wp_2_options WHERE option_name = 'alo_em_no_activation_mail' LIMIT 1<br>SELECT ID FROM wp_2_easymail_subscribers WHERE email='jiaron@163.com' LIMIT 1<br>INSERT INTO `wp_2_easymail_subscribers` (`email`,`name`,`join_date`,`active`,`unikey`,`lists`,`lang`,`last_act`) VALUES ('jiaron@163.com','Name','2012-08-02 17:15:52','0','4742b5e53bc3875bc533fe97','|','zh','2012-08-02 17:15:52')<br>SELECT * FROM wp_2_easymail_subscribers WHERE email = 'jiaron@163.com'<br>SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1<br>SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'<br>SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'<br>

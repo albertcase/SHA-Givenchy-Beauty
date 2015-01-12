@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: givenchy G2 - store-locator\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ludwig Troller\n"
+"Language-Team: ABCP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "lang"
+msgstr "en"
+
+msgid "perfume"
+msgstr "Fragrances"
+
+msgid "makeup"
+msgstr "Makeup"
+
+msgid "care"
+msgstr "Skincare"
+
+msgid "spa"
+msgstr "Spas"
+
+msgid "search-for-sales-point"
+msgstr "Search for a store :"
+
+msgid "find-sales-point"
+msgstr "Find a store"
+
+msgid "default-query"
+msgstr "Country, city, address..."
+
+msgid "locate-me"
+msgstr "Do you want us to locate you in order to find the nearest shops?"
+

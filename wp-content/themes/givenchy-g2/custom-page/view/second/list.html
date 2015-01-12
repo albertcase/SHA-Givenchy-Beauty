@@ -1,0 +1,32 @@
+<?php 
+include_once(CUSTOM_PAGE_ROOT.'view/second/topbar.html'); 
+if(!empty($category_top_page_img)){
+    echo '<div class="three-product">';
+    echo '<img src="'.$category_top_page_img.'" width = "760" />';
+    echo '</div>';
+}
+?>
+
+<?php
+echo '<div class="product-main">';
+for($i = 1; $i < $count; $i++) {
+    echo '<div class="three-product">';
+    for($j = 1; $j < 4; $j++){
+        if(empty($new_product_location_data[$i][$j])){
+            echo '<div class="product-tip"></div>';
+            continue;
+        }else{
+            //http://test.jfx.com/files/2012/07/VAXIN-1-02.jpg
+            
+            $new_product_data_one = $product_data[$new_product_location_data[$i][$j]];
+            echo '<div class="product-tip">';
+            echo '<div class="product-pic"><a href="'.get_permalink($new_product_data_one->ID).'"><img src="'.$new_product_data_one -> product_images[0].'" /></a></div>';
+			echo '<div class="product-name">'.$new_product_data_one -> post_title.'</div>';
+			echo '<div class="product-info"><a href="'.get_permalink($new_product_data_one->ID).'">了解更多</a></div>';
+            echo '</div>';
+		}
+    }
+    echo '</div>';
+}
+echo '</div>';
+?>

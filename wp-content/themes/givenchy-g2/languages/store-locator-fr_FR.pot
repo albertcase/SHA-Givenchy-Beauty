@@ -1,0 +1,26 @@
+msgid "lang"
+msgstr "fr"
+
+msgid "perfume"
+msgstr "Parfums"
+
+msgid "makeup"
+msgstr "Maquillage"
+
+msgid "care"
+msgstr "Soin"
+
+msgid "spa"
+msgstr "Spas"
+
+msgid "search-for-sales-point"
+msgstr "Rechercher un point de vente :"
+
+msgid "find-sales-point"
+msgstr "Chercher un point de vente"
+
+msgid "default-query"
+msgstr "Pays, Ville, Adresse..."
+
+msgid "locate-me"
+msgstr "Souhaitez vous être localisé afin que nous vous proposions les points de vente les plus proches ?"

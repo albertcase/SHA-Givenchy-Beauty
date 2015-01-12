@@ -1,0 +1,181 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR , YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-27 17:11-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-05-27 11:41+0100\n"
+"Last-Translator: Florian <nikotine192@hotmail.com>\n"
+"Language-Team: WP\n"
+
+##################################################
+#					FOOTER
+##################################################
+msgid "Description"
+msgstr "Description"
+
+msgid "Conseils d'applications"
+msgstr "Application advice"
+
+msgid "Produits du look"
+msgstr "Look products"
+
+##################################################
+#					TITLE
+##################################################
+msgid "look1-title"
+msgstr "Refined Glow"
+
+msgid "look2-title"
+msgstr "Briefcase Elegance"
+
+msgid "look3-title"
+msgstr "Beach Wave Glam"
+
+msgid "look4-title"
+msgstr "Serving Up Sophistication"
+
+msgid "look5-title"
+msgstr "Dazzling All Night"
+
+##################################################
+#					DESCRIPTION
+##################################################
+msgid "look1-description"
+msgstr "Indulge oneself - starting with yourself.<br />This look is intended for all those women who simply want to reveal their natural beauty.<br />Perfect for a shopping spree, a moment’s relaxation or a weekend break.<br />By giving free rein to our fresh, physical beauty, our internal beauty, our serenity surfaces as if by magic.<br />I feel beautiful. I am beautiful.<br />I relax. I find myself."
+
+msgid "look2-description"
+msgstr "Dare.<br />But always within reason.<br />Be confident, successful, self-assured.<br />And always feminine.<br />Because a woman’s most beautiful secret is her femininity.<br />The \"Briefcase Elegance\" look brings to each woman a certain “je ne sais quoi” which makes all the difference.<br />With its finer points and subtlety, it enables you to assert yourself. It is not a weapon, but an asset.<br />A look which is most certainly found in the working life of each and every woman.<br />Now it’s up to you…"
+
+msgid "look3-description"
+msgstr "Sun tanned elegance. A stroll along the seashore. A cocktail on a yacht.<br />The sun lights up the beauty of women: golden skin ready to savour the summer magic, an inner well-being.<br />The \"Beach Wave Glam\" look allows you to become a Goddess of the summer, the one who stands out with her style and her grace, her constant charm and mystery.<br />Smile, they’re looking at you.<br />Look, they’re smiling at you."
+
+msgid "look4-description"
+msgstr "Neither too much, nor too little.<br />Stand out in a crowd without pretention.<br />There you are expected for dinner, at a gallery opening or at a premiere at the theatre on the Champs-Elysées.<br />Constructed and sophisticated, the \"Serving Up Sophistication\" look allows you to affirm your presence and be feminine with a capital F.<br />Glamorous, elegant and trendy, always with a hint of mischief."
+
+msgid "look5-description"
+msgstr "You give and you love to get.<br />You want to see and be seen.<br />The \"Dazzling All Night\" look will transport to a glamorous world of elegance.<br />You are exceptional and you always will be. The star of the evening, the big-hearted diva, you see yourself as an icon.<br />All eyes are on you. You and only you."
+
+##################################################
+#					APPLICATION
+##################################################
+msgid "Skincare"
+msgstr "Skincare"
+
+msgid "Complexion"
+msgstr "Complexion"
+
+msgid "Eyes"
+msgstr "Eyes"
+
+msgid "Eyebrows"
+msgstr "Eyebrows"
+
+msgid "Lips"
+msgstr "Lips"
+
+# LOOK1
+msgid "look1-application-Skincare"
+msgstr "<p><strong>Crème Fondante (or Onctueuse according to skin type) Hydratation Lumière Hydra Sparkling</strong>: Apply Hydra Sparkling cream to the face for well hydrated, soft and velvety smooth skin that glows with a pure, natural light, sparkling with freshness.</p>"
+
+msgid "look1-application-Complexion"
+msgstr "<p><strong>Mister Light concealer</strong>: This magic pen acts like a shadow chaser. Apply before (or after) foundation, under the eyes as well as the forehead, chin and lips to reduce signs of fatigue and conceal small blemishes.<br/><br/><em><span>Givenchy’s beauty tip</span> : It can also be used on the Cupid’s bow (the ‘V’ in the centre of the lip) to delicately emphasise the upper lip.</em> </p><p><strong>Photo’Perfexion Light foundation</strong>: lightly cover the round foam applicator with foundation and apply to the face using upwards movements from the centre of the face outwards.<br /><br /><strong>Mister Mat matte finish make-up base</strong>: Apply this matte-finish velvet-complexion powdered gel for a perfectly matte complexion all day long. Its gel texture glides over the skin like a soft, powdered veil. Mister Mat can be applied before or after foundation.</p><p><strong>Le Prisme Blush</strong>: To brighten your complexion in one easy motion, blend the colours of all 4 domes and apply the mix to your cheeks. For a more sophisticated look, use each shade separately for a personalized result.<br /><br /><em><span>Givenchy’s beauty tip</span>: smile so that your cheekbones stick out and then apply the blusher to the cheeks!</em></p>"
+
+msgid "look1-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong>: The shades of the Prisme Quatuor can be used as a duo or trio. For a Quatuor look, we advise you to first apply the base shade (bottom left) over the entire lid, then use the shade in the top left as liner to enhance the shape of the eyes. Next, apply the shade in the top right to add dimension to the eye contour and finally use the illuminator (bottom right) to highlight just under the eyebrow and/or in the outside corners of the eyes to finish with a dazzling touch. If you wish, you can also add shade below the eye.</p><p><strong>Magic Khôl eyeliner pencil</strong>: Apply a touch of Magic Khôl along your upper lashes to make your eyes look bigger and dramatically more intense.<br /><br /><strong>Le Prisme Yeux Mono</strong>: Apply this one-shade eye shadow to reinforce previously applied eye shadow by mixing the 4 powders or by using the most glittery one for bright eyes (shade on bottom right).</p><p><strong>Mister Lash Booster eyelash treatment</strong>: The high precision applicator coats every lash, even the very smallest, thanks to its easy use. First of all, remove the cap then twist the base to deliver the right serum dose. Apply it to the roots of the lashes and massage delicately. Like classic mascara, apply it from the root to the tip. Repeat the process for inferior lashes.<br /><br /><em><span>Givenchy’s beauty tip</span>: Ideal for brows too!</em><br /><br />If you are looking for a truly natural result, stop there after that step – your lashes will be quite simply covered without colouring…</p><p>For a more strongly accentuated result, apply the following mascara:<br /><br /><strong>Phenomen’Eyes Effet Extension mascara</strong>: Held upright, the brush pushes against the root. This movement separates the lashes and fixes the curl to the tip. Held diagonally, the brush coats all of the lashes in the corners of the eyes from the very base of the lash. Held horizontally, the brush can be rolled over the upper lashes like a hairbrush. Delicately apply to the lower lashes just after the upper lashes, without overloading the brush with mascara or taking care to remove the surplus texture on the neck of the bottle.</p>"
+
+msgid "look1-application-Eyebrows"
+msgstr "<p><strong>Eyebrow Show eyebrow pencil</strong>: Use the pencil dry during the day for a natural finish, or dampen it on an evening for a more sophisticated look.</p>"
+
+msgid "look1-application-Lips"
+msgstr "<p><strong>Lip Liner pencil</strong>: Choose a Lip Liner shade similar to that of your lipstick or gloss. Outline the lips with precision to sculpt sensual volume. Colour in the lips entirely for a longer hold and a natural look. <br /><br /><strong>Gelée d’Interdit gloss</strong>: For a nude look, apply the <strong>Gelée d’Interdit</strong> that will enhance the natural carnation of your lips thanks to its subtle shades. The glossy, pearly texture makes lips appear plumper.</p>"
+
+# LOOK2
+msgid "look2-application-Skincare"
+msgstr "<p><strong>Crème Fondante (or Onctueuse according to skin type) Hydratation Lumière Hydra Sparkling</strong>: Apply Hydra Sparkling cream to the face for well hydrated, soft and velvety smooth skin that glows with a pure, natural light, sparkling with freshness.</p>"
+
+msgid "look2-application-Complexion"
+msgstr "<p><strong>Acti’Mine make-up base</strong>: To brighten pale skin, activate its shine with Acti’Mine.  A real “light booster” for “yellow” or “greyish” complexions, Acti’Mine creates shine while maintaining transparency and a matte finish. Apply directly to the skin or mix with your moisturizing cream or foundation.<br /><br /><strong>Mister Light concealer</strong>: This magic pen acts like a shadow chaser. Apply before (or after) foundation, under the eyes as well as the forehead, chin and lips to reduce signs of fatigue and conceal small blemishes. <br/><br/><em><span>Givenchy’s beauty tip</span> : It can also be used on the Cupid’s bow (the ‘V’ in the centre of the lip) to delicately emphasise the upper lip.</em> </p><p><strong>Photo’Perfexion foundation</strong>: Place a drop of foundation in the palm of the hand and warm it with the fingertips to make more fluid. Then apply with the fingertips to the T zone: forehead, nose and chin. Gently soften using upwards movements from the centre of the face outwards.<br /><br /><strong>Le Prisme Libre Loose Powder</strong>: The new « Shake & Mix » gesture which consists in shaking the powder then mixing on the sifter for a practical and precise application. Mix all the shades to unify your face with a natural glow, or use it in subtle touches for a mat effect or to brighten the key areas of the face.<br /><br />Le Prisme Visage can also be used to obtain the same result.</p><p><strong>Le Prisme Blush</strong>: To brighten your complexion in one easy motion, blend the colours of all 4 domes and apply the mix to your cheeks. For a more sophisticated look, use each shade separately for a personalized result.<br /><br /><em><span>Givenchy’s beauty tip</span> : smile so that your cheekbones stick out and then apply the blusher to the cheeks!</em></p>"
+
+msgid "look2-application-Eyes"
+msgstr "<p><strong>Magic Khôl eyeliner pencil</strong>: Draw a line of Magic Khôl along your upper lashes to make your eyes look bigger and dramatically more intense. Lightly soften the line with the finger. <br /><br /><strong>Le Prisme Yeux Mono</strong>: For a simple makeup application, mix the shades with the applicator in a single circular motion. For a more sophisticated look, use each shade separately and create a look that is completely your own and sculpt your look!</p><p><strong>Phenomen’Eyes Mascara</strong>: Held upright, the brush pushes against the root. This movement separates the lashes and fixes the curl to the tip. Held diagonally, the brush coats all of the lashes in the corners of the eyes from the very base of the lash. Held horizontally, the brush can be rolled over the upper lashes like a hairbrush. Delicately apply to the lower lashes just after the upper lashes, without overloading the brush with mascara or taking care to remove the surplus texture on the neck of the bottle.</p>"
+
+msgid "look2-application-Eyebrows"
+msgstr "<p><strong>Eyebrow Show powdery eyebrow pencil</strong>: Use this pencil dry during the day for a natural finish, or dampen it on an evening for a more sophisticated look.</p>"
+
+msgid "look2-application-Lips"
+msgstr "<p><strong>Lip Liner pencil</strong>: Choose a Lip Liner shade similar to that of your lipstick or gloss. Outline the lips with precision to sculpt sensual volume. Colour in the lips entirely for a longer hold and a natural look. </p><p><strong>Rouge Interdit lipstick</strong>: Apply your lipstick then smooth with the finger so the pigment is absorbed. This mechanical action ensures an improved hold. A second application ensures a richer result.</p>"
+
+# LOOK3
+msgid "look3-application-Skincare"
+msgstr "<p><strong>Crème Fondante (or Onctueuse according to skin type) Hydratation Lumière Hydra Sparkling</strong>: Apply Hydra Sparkling cream to the face for well hydrated, soft and velvety smooth skin that glows with a pure, natural light, sparkling with freshness.</p>"
+
+msgid "look3-application-Complexion"
+msgstr "<p><strong>Mister Light concealer</strong>: This magic pen acts like a shadow chaser. Apply before (or after) foundation, under the eyes as well as the forehead, chin and lips to reduce signs of fatigue and conceal small blemishes. <br/><br/><em><span>Givenchy’s beauty tip</span> : It can also be used on the Cupid’s bow (the ‘V’ in the centre of the lip) to delicately emphasise the upper lip.</em> </p><p><strong>Mister Radiant skin tone booster</strong>: use it as you like, from a more natural look to the radiant healthy sun-kissed look depending on the number of layers applied. It can be used as a make-up base before powder to prepare the skin, even in winter beneath foundation, or on its own to simply harmonise a natural tan.</p><p><strong>Le Prismissime Visage face powder</strong>: A palette to use instinctively, boldly blending shades and creating interplays of textures (matte or shiny) to bring out the full beauty of the face.</p><p><strong>Le Prisme Blush</strong>: To brighten your complexion in one easy motion, blend the colours of all 4 domes and apply the mix to your cheeks. For a more sophisticated look, use each shade separately for a personalized result.<br /><br /><em><span>Givenchy’s beauty tip</span>: smile so that your cheekbones stick out and then apply the blusher to the cheeks!</em></p>"
+
+msgid "look3-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong>: The shades of the Prisme Quatuor can be used as a duo or trio. For a Quatuor look, we advise you to first apply the base shade (bottom left) over the entire lid, then use the shade in the top left as liner to enhance the shape of the eyes. Next, apply the shade in the top right to add dimension to the eye contour and finally use the illuminator (bottom right) to highlight just under the eyebrow and/or in the outside corners of the eyes to finish with a dazzling touch. If you wish, you can also add shade below the eye.</p><p><strong>Phenomen’Eyes Effet Extension mascara</strong>: Held upright, the brush pushes against the root. This movement separates the lashes and fixes the curl to the tip. Held diagonally, the brush coats all of the lashes in the corners of the eyes from the very base of the lash. Held horizontally, the brush can be rolled over the upper lashes like a hairbrush. Delicately apply to the lower lashes just after the upper lashes, without overloading the brush with mascara or taking care to remove the surplus texture on the neck of the bottle.</p>"
+
+msgid "look3-application-Eyebrows"
+msgstr "<p><strong>Mister Eyebrow fixing pencil</strong>: draw and perfectly groom your eyebrows! Brows look smooth and naturally shiny.</p>"
+
+msgid "look3-application-Lips"
+msgstr "<p><strong>Lip Liner pencil</strong>: Choose a Lip Liner shade similar to that of your lipstick or gloss. Outline the lips with precision to sculpt sensual volume. Colour in the lips entirely for a longer hold and a natural look. </p><p><strong>Rouge Interdit lipstick</strong>: Apply your lipstick then smooth with the finger so the pigment is absorbed. This mechanical action ensures an improved hold. A second application ensures a richer result.<br /><br /><strong>Gelée d’Interdit gloss</strong>: Apply the <strong>Gelée d’Interdit</strong> as a top coat for a glossy, sophisticated look.  The shiny, pearly texture makes lips appear plumper.</p>"
+
+# LOOK4
+msgid "look4-application-Skincare"
+msgstr "<p><strong>Crème Fondante (or Onctueuse according to skin type) Hydratation Lumière Hydra Sparkling</strong>: Apply Hydra Sparkling cream to the face for well hydrated, soft and velvety smooth skin that glows with a pure, natural light, sparkling with freshness.</p>"
+
+msgid "look4-application-Complexion"
+msgstr "<p><strong>Mister Light concealer</strong>: This magic pen acts like a shadow chaser. Apply before (or after) foundation, under the eyes as well as the forehead, chin and lips to reduce signs of fatigue and conceal small blemishes. <br/><br/><em><span>Givenchy’s beauty tip</span> : It can also be used on the Cupid’s bow (the ‘V’ in the centre of the lip) to delicately emphasise the upper lip.</em> <br /><br /><Strong>Photo’Perfexion foundation</strong>: Place a drop of foundation in the palm of the hand and warm it with the fingertips to make more fluid. Then apply with the fingertips to the T zone: forehead, nose and chin. Gently soften using upwards movements from the centre of the face outwards.</p><p><strong>Le Prisme Libre Loose Powder</strong>: The new « Shake & Mix » gesture which consists in shaking the powder then mixing on the sifter for a practical and precise application. Mix all the shades to unify your face with a natural glow, or use it in subtle touches for a matte effect or to brighten the key areas of the face.<br /><br />Le Prisme Visage can also be used to obtain the same result.</p><p><strong>Le Prisme Blush</strong>: To brighten your complexion in one easy motion, blend the colours of all 4 domes and apply the mix to your cheeks. For a more sophisticated look, use each shade separately for a personalized result.<br /><br /><em><span>Givenchy’s beauty tip</span>: smile so that your cheekbones stick out and then apply the blusher to the cheeks!</em></p>"
+
+msgid "look4-application-Eyebrows"
+msgstr "<p><strong>Eyebrow Show powdery eyebrow pencil</strong>: Use this pencil dry during the day for a natural finish, or dampen it on an evening for a more sophisticated look.</p>"
+
+msgid "look4-application-Eyes"
+msgstr "<p><strong>Le Prisme Yeux Quatuor</strong>: The shades of the Prisme Quatuor can be used as a duo or trio. For a Quatuor look, we advise you to first apply the base shade (bottom left) over the entire lid, then use the shade in the top left as liner to enhance the shape of the eyes. Next, apply the shade in the top right to add dimension to the eye contour and finally use the illuminator (bottom right) to highlight just under the eyebrow and/or in the outside corners of the eyes to finish with a dazzling touch. Add another shade below the eye.<br /><br /><strong>Magic Khôl eyeliner pencil</strong>: Draw a line of Magic Khôl along the inner rim of the eye to make your eyes look bigger and dramatically more intense. </p><p><strong>Parad’Eyes fluid eye liner</strong>: The line needs to be finer towards the inner eye becoming gradually more intense towards the outer eye. To do this, press lightly on the brush at the inner eye then press harder towards the outer eye. </p><p><strong>Phenomen’Eyes mascara</strong>: Held upright, the brush pushes against the root. This movement separates the lashes and fixes the curl to the tip. Held diagonally, the brush coats all of the lashes in the corners of the eyes from the very base of the lash. Held horizontally, the brush can be rolled over the upper lashes like a hairbrush. Delicately apply to the lower lashes just after the upper lashes, without overloading the brush with mascara or taking care to remove the surplus texture on the neck of the bottle.</p>"
+
+msgid "look4-application-Lips"
+msgstr "<p><strong>Rouge Interdit lipstick</strong>: Apply your lipstick then smooth with the finger so the pigment is absorbed. This mechanical action ensures an improved hold. A second application ensures a richer result.</p>"
+
+# LOOK5
+msgid "look5-application-Skincare"
+msgstr "<p><strong>Crème Fondante (or Onctueuse according to skin type) Hydratation Lumière Hydra Sparkling</strong>: Apply Hydra Sparkling cream to the face for well hydrated, soft and velvety smooth skin that glows with a pure, natural light, sparkling with freshness.</p>"
+
+msgid "look5-application-Complexion"
+msgstr "<p><strong>Photo’Perfexion foundation</strong>: Place a drop of foundation in the palm of the hand and warm it with the fingertips to make more fluid. Then apply with the fingertips to the T zone: forehead, nose and chin. Gently soften using upwards movements from the centre of the face outwards.<br /><br /><strong>Mister Light concealer</strong>: This magic pen acts like a shadow chaser. Apply before (or after) foundation, under the eyes as well as the forehead, chin and lips to reduce signs of fatigue and conceal small blemishes. <br/><br/><em><span>Givenchy’s beauty tip</span> : It can also be used on the Cupid’s bow (the ‘V’ in the centre of the lip) to delicately emphasise the upper lip.</em> <br /><br /><strong>Mister Bright illuminator</strong>: Apply to the cheekbones, arch of the eyebrow, eyelids, inner corner of the eye and temples with the tip of the brush and pat with the fingertips to blend in if necessary. </p><p><strong>Le Prisme Blush</strong>: To brighten your complexion in one easy motion, blend the colours of all 4 domes and apply the mix to your cheeks. For a more sophisticated look, use each shade separately for a personalized result.<br /><br /><em><span>Givenchy’s beauty tip</span>: smile so that your cheekbones stick out and then apply the blusher to the cheeks!</em></p>"
+
+msgid "look5-application-Eyes"
+msgstr "<p><strong>Magic Khôl eyeliner pencil</strong>: For a smoky effect, apply Magic Khôl over the entire lid. Gently soften and spread over the eyelid with a fingertip to obtain the required effect.</p><p><strong>Le Prisme Yeux Mono</strong>: Apply the eye shadow over the softened Magic Khôl to create a deeper, more pearly effect. <br /><br /><strong>Phenomen’Eyes Mascara</strong>: Held upright, the brush pushes against the root. This movement separates the lashes and fixes the curl to the tip. Held diagonally, the brush coats all of the lashes in the corners of the eyes from the very base of the lash. <br /><br />Held horizontally, the brush can be rolled over the upper lashes like a hairbrush. Delicately apply to the lower lashes just after the upper lashes, without overloading the brush with mascara or taking care to remove the surplus texture on the neck of the bottle.</p>"
+
+msgid "look5-application-Eyebrows"
+msgstr "<p><strong>Eyebrow Show powdery eyebrow pencil</strong>: Use this pencil dry during the day for a natural finish, or dampen it on an evening for a more sophisticated look.</p>"
+
+msgid "look5-application-Lips"
+msgstr "<p><strong>Lip Liner pencil</strong>: Choose a Lip Liner shade similar to that of your lipstick or gloss. Outline the lips with precision to sculpt sensual volume. Spread towards the centre of the lips for a more natural look. </p><p><strong>Rouge Interdit lipstick</strong>: Apply your lipstick then smooth with the finger so the pigment is absorbed. This mechanical action ensures an improved hold. A second application ensures a richer result.</p>"
+
+##################################################
+#					PRODUCTS | SEPARATED
+##################################################
+msgid "look1-products"
+msgstr "Crème Hydratante Hydra Sparkling|Mister Light n°1 (Mister Meringue)|Photo'Perfexion Light n°2 (Light Shell)|Mister Mat|Le Prisme Blush n°21 (Inspiration Rose)|Le Prisme Yeux Quatuor n°71 (Purple Show)|Magic Khôl n°7 (Beige Pearl)|#Le Prisme Yeux Mono n°14 (Elegant Taupe)|Mister Lash Booster|Phenomen'Eyes Effet Extension n°1 (Extension Black)|Eyebrow Show n°3 (Blonde Show)|Lip Liner n°12 (Lip Nude)|Gelée d’Interdit n°12 (Elegant Nude)|"
+
+msgid "look2-products"
+msgstr "Crème Hydratante Hydra Sparkling|Actimine n°3 (Acti Kiwi)|Mister Light n°1 (Mister Meringue)|Photo'perfexion n°4 (Perfect Vanilla)|Le Prisme Libre n°2 (Delicate Beige)|Le Prisme Blush n°22 (Vintage Pink)|Magic Khôl n°1 (Black)|#Le Prisme Yeux Mono n°12 (Casual Khaki)|Phenomen'Eyes (Phenomen’Black)|Eyebrow Show n°1 (Brunette Show)|Lip Liner n°2 (Lip Litchi)|Rouge Interdit n°6 (Precious Rose)|"
+
+msgid "look3-products"
+msgstr "Crème Hydratante Hydra Sparkling|Mister Light n°3 (Mister Toast)|Mister Radiant|Le Prismissime Visage n°73 (Sun Caramel)|Le Prisme Blush n°25 (In-Vogue Orange)|Le Prisme Yeux Quatuor n°6 (Sienna Silhouette)|Phenomen'Eyes Effet Extension n°1 (Extension Black)|Mister Eyebrow|Lip Liner n°12 (Lip Nude)|Rouge Interdit n°14 (Fruity Orange)|Gelée d’Interdit n°13 (Dazzling Caramel)|"
+
+msgid "look4-products"
+msgstr "Crème Hydratante Hydra Sparkling|Mister Light n°2 (Mister Milk)|Photo'Perfexion n°4 (Perfect Vanilla)|Le Prisme Libre n°2 (Delicate Beige)|Le Prisme Blush n°23 (Aficionado Peach)|Le Prisme Yeux Quatuor n°72 (Midnight Look)|Magic Khôl n°2 (White)|Parad'Eyes Liner n°1 (Dream in Black)|Phenomen'Eyes n°1 (Phenomen’ Black)|Eyebrow Show n°2 (Brown Show)|Rouge Interdit n°12 (Sensual Rose)|"
+
+msgid "look5-products"
+msgstr "Crème Hydratante Hydra Sparkling|Photo'Perfexion n°8 (Perfect Amber)|Mister Light n°3 (Mister Toast)|Mister Bright n°72 (Sun Light)|Le Prisme Blush n°25 (In-Vogue Orange)|Magic Khôl n°1 (Black)|#Prisme Yeux mono n°1 (Showy Black)|Phenomen'Eyes n°1 (Phenomen’ Black)|Eyebrow Show n°1 (Brunette Show)|Lip Liner n°5 (Lip Rouge)|Rouge Interdit n°17 (Rouge Cancan)|"
+

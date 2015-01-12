@@ -1,0 +1,84 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR , YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-27 17:11-0600\n"
+"PO-Revision-Date: 2011-07-13 16:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+##################################################
+#					SIDEBAR
+##################################################
+msgid "VOUS&NOUS"
+msgstr "YOU&US"
+
+msgid "NOS BOUTIQUES"
+msgstr "OUR STORE"
+
+msgid "BOUTIQUE EN LIGNE"
+msgstr "ONLINE STORE"
+
+msgid "S'abonner &agrave; la newsletter"
+msgstr "Subscribe to the newsletter"
+
+msgid "Nous rejoindre sur"
+msgstr "Follow us on"
+
+##################################################
+#					HOME
+##################################################
+msgid "Bar &agrave; cils Givenchy"
+msgstr "Givenchy Lash Bar www"
+
+msgid "Cr&eacute;ez-vous un regard sublime"
+msgstr "Become a creator of magnificient eyes"
+
+msgid "Partagez votre look avec votre iphone"
+msgstr "Share your look with your iphone"
+
+msgid "Looks &amp; Tendances"
+msgstr "Styles &amp; Trends"
+
+##################################################
+#					COMMENTS
+##################################################
+msgid "Un commentaire"
+msgstr "One comment"
+
+msgid "%1$s commentaires"
+msgstr "%1$s comments"
+
+msgid "Lire la suite"
+msgstr "Read"
+
+# wp-includes/comment-template.php line 1540
+msgid "R&eacute;agissez"
+msgstr "React!"
+
+##################################################
+#					POST FOOTER
+##################################################
+msgid "D&eacute;couvrez aussi"
+msgstr "Also discover"
+
+msgid "Articles pr&eacute;c&eacute;dents"
+msgstr "Previous articles"
+
+msgid "Articles suivants"
+msgstr "Next articles"
+
+##################################################
+#					Page attente
+##################################################
+msgid "Françoise Donche, olfactologue de la Maison Givenchy, invite à sa table Marie (MarieluvPink), célèbre blogeuse qui réunit des centaines de milliers de fans sur son blog.<br />Apprendre à se connaître, revenir à ses premières émotions olfactives, naviguer à travers ses goûts et ses désirs. Pas à pas, Françoise Donche tracera le parcours olfactif de Marie.<br />Une rencontre en émotions. Une rencontre de femmes.<br /><br /><strong>Rendez vous prochainement pour partager cela avec elles.</strong>"
+msgstr "Francoise Donche, Givenchy's Fragrance Expert, meets fashion blogger Marie (MarieluvPink), uncovering her earliest olfactive memories, navigating through her tastes and desires.<br/> Step by step, Francoise will trace her olfactive history... A meeting of emotions. A meeting between women.<br/><br/><strong>Come back very soon to share this experience with them.</strong>"
+

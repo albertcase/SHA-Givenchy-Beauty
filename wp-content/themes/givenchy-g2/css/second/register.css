@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+.register-all {
+	height: auto;
+	width: 760px;
+	overflow: hidden;
+}
+.fill-box {
+	min-height:183px;
+	height: auto;
+	width: 560px;
+	margin-top: 58px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	padding-bottom: 25px;
+	background: url(../../images/second/fill-box-background.jpg) no-repeat bottom right;
+}
+.user-info{
+	margin-top:30px;	
+}
+.change-password{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.fill-box .Thistitle {
+	display: block;
+	height: 30px;
+	width: auto;
+	margin-left: 100px;
+	background-image: url(../../images/second/register_icon.png);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 32px;
+}
+.fill-box .userTitle{
+	background-position: -12px -103px;
+	margin-top: 23px;
+	padding-bottom: 12px;
+}
+.fill-box .infoTitle{
+	background-position: -12px -56px;
+	margin-top: 23px;
+	padding-bottom: 12px;
+}
+.fill-box .oldpassword{
+	background-position: -12px -4px;
+	margin-top: 23px;
+	padding-bottom: 12px;
+}
+
+.fill-box .text01 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	width: 230px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 14px;
+}
+.fill-box .text02 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	width: 177px;
+	border: 1px solid #000;
+	margin-left: 14px;
+}
+.fill-box .selection01 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	width: 100px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 14px;
+}
+.fill-box .selection02 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	width: 70px;
+	border: 1px solid #000;
+	float: left;
+	margin-left: 14px;
+}
+
+
+.fill-box .fillTip label {
+	width: 144px;
+	float: left;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: right;
+	height: 22px;
+}
+/*.fill-box .fillTip.ThisSubscription label {
+	width: auto;
+	float:left;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: right;
+}*/
+.fill-box .fillTip {
+	height: 22px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.fill-box .button01 {
+	background-color: #000;
+	height: 24px;
+	height:auto; \9
+	cursor: pointer;
+	color: #FFF;
+	font-size: 14px;
+	padding: 3px 10px;
+}
+.fill-box .middleTip {
+	height: 24px;
+	width: 100%;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+
+.fill-box a.button01 {
+	background-color: #000;
+	cursor: pointer;
+	color: #FFF;
+	padding: 3px;
+15px;
+	font-size: 14px;
+	display: inline;
+	text-decoration: none;
+	border: 2px outset buttonface;
+}
+.fill-box a.button01:active{
+	border: 2px inset buttonface;
+}
+
+.fill-box .fillTip .button01 {
+	margin-left: 156px;
+	margin-top: 5px;
+	text-align: center;
+}
+.fill-box .fillTip a {
+	color: #000;
+	font-size: 12px;
+	line-height: 22px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+.fill-box .middleTip.register-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.success-register,.success-sending ,.rest-success{
+	padding-bottom: 60px;
+}
+.fill-box .fillTip .radio01 {
+	margin-left: 10px;
+	margin-top: 4px;
+}
+.fill-box .fillTip  .BrandEach .radio01 {
+	margin-left: 10px;
+	margin-top: 4px;
+}
+.fill-box .fillTip span {
+	font-size: 12px;
+	padding-left: 5px;
+	line-height: 22px;
+}
+.fill-box .fillTip option {
+	text-align: center;
+}
+.red{
+	background-color: #FF9799 !important;
+	border: 1px solid #F00 !important;	
+}
+.fillTip .Subscription{
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	margin-left:14px;
+}
+.fill-box .fillTip.userOfBrand {
+	height: 100px;
+	overflow: hidden;
+}
+.fill-box .fillTip.userOfBrand label {
+	height: 88px;
+}
+.fill-box .fillTip .BrandEach {
+	width: 204px;
+	height: 22px;
+	float: left;
+}
+.fill-box .fillTip .BrandEach02 {
+	width: 404px;
+	height: 22px;
+	float: left;
+}
+
+
+/*popBox*/
+.message .box {
+	min-width: 400px;
+	background: white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	-moz-box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);
+	-webkit-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);
+	_position: absolute;
+}
+.message .box .msg {
+	min-height: 80px;
+	clear: both;
+	padding: 10px;
+}
+.message .box .header {
+	height: 35px;
+	width: 100%;
+	border-radius: 3px 3px 0 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.message .box .header h3 {
+	display: inline;
+	line-height: 35px;
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+	float: left;
+}
+.message .box .header a.close {
+	cursor: pointer;
+	text-indent: -9999em;
+	width: 23px;
+	height: 23px;
+	float: right;
+	margin: 6px 6px 0 0;
+	background-color: transparent;
+	background-image: url(../../images/second/mini_b.png);
+	background-repeat: no-repeat;
+	background-position: -100px 0px;
+}
+
+.fill-box span.wrong-attension {
+	display: block;
+	line-height: 22px;
+	padding-left: 22px;
+	max-width: 140px;
+	float: left;
+	background-image: url(../../images/second/attention-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: red;
+}
+
+
+.hidden-success {
+	left: 50%;
+	top: 30%;
+	position: absolute;
+	margin-left: -240px;
+	width: 400px;
+	background-image: url(../../images/store-game/search-bg.png);
+	background-repeat: repeat;
+	padding: 40px;
+	font-size: 16px;
+	color: #CCC;
+	overflow: hidden;
+}
+.p-attension {
+	float: left;
+	background-image: url(../../images/store-game/bt-attention-icon.png);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	position: relative;
+	margin-right: 20px;
+}
+p.p-wrong {
+	font-size: 16px;
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+	line-height: 28px;
+}
+.hidden-success button {
+	right: 20px;
+	bottom: 20px;
+	position: absolute;
+	float: right;
+}
+.ajax-loading{
+	left: 50%;
+	top: 30%;
+	position: absolute;
+	margin-left: -32px;
+	width: 64px;
+	height:64px;
+	text-indent:-9999px;
+	background-image: url(../../images/second/demo_wait.gif);
+	background-repeat: repeat;
+	overflow: hidden;
+}

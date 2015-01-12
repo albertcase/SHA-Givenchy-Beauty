@@ -1,0 +1,120 @@
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_poptags_40cd750bba9870f18aada2478b24840a' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'upload_filetypes' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'ftp_credentials' LIMIT 1
+SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'ftp_credentials' LIMIT 1
+SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'ftp_credentials' LIMIT 1
+SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1
+SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'
+SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'
+SELECT * FROM wp_users WHERE user_login = 'admin'
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */
+SELECT * FROM wp_options WHERE option_name = 'blogname'
+SELECT * FROM wp_options WHERE option_name = 'siteurl'
+SELECT * FROM wp_options WHERE option_name = 'post_count'
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1
+SELECT option_value FROM wp_2_options WHERE option_name = 'ftp_credentials' LIMIT 1
+SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1
+SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1
+SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1<br>SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'<br>SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'<br>SELECT * FROM wp_users WHERE user_login = 'admin'<br>SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)<br>SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1<br>SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */<br>SELECT * FROM wp_options WHERE option_name = 'blogname'<br>SELECT * FROM wp_options WHERE option_name = 'siteurl'<br>SELECT * FROM wp_options WHERE option_name = 'post_count'<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1<br>SELECT option_value FROM wp_2_options WHERE option_name = 'ftp_credentials' LIMIT 1<br>INSERT INTO `wp_2_options` (`option_name`, `option_value`, `autoload`) VALUES ('ftp_credentials', 'a:3:{s:8:\"hostname\";s:12:\"42.121.15.68\";s:8:\"username\";s:5:\"admin\";s:15:\"connection_type\";s:3:\"ftp\";}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)<br>SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1<br>SELECT meta_key, meta_value FROM wp_sitemeta WHERE meta_key IN ('site_name', 'siteurl', 'active_sitewide_plugins', '_site_transient_timeout_theme_roots', '_site_transient_theme_roots', 'site_admins', 'can_compress_scripts', 'global_terms_enabled') AND site_id = 1<br>SELECT * FROM wp_blogs WHERE domain = '42.121.15.68' AND path = '/'<br>SELECT option_name, option_value FROM wp_2_options WHERE autoload = 'yes'<br>SELECT * FROM wp_users WHERE user_login = 'admin'<br>SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)<br>SELECT option_value FROM wp_2_options WHERE option_name = 'db_upgraded' LIMIT 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_themes' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_core' AND site_id = 1<br>SELECT option_value FROM wp_2_options WHERE option_name = 'erp-processedPosts' LIMIT 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT * FROM wp_blogs WHERE blog_id = 1 /* get_blog_details */<br>SELECT * FROM wp_options WHERE option_name = 'blogname'<br>SELECT * FROM wp_options WHERE option_name = 'siteurl'<br>SELECT * FROM wp_options WHERE option_name = 'post_count'<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'wpmu_upgrade_site' AND site_id = 1<br>SELECT meta_id FROM wp_sitemeta WHERE meta_key = '_site_transient_update_plugins' AND site_id = 1<br>SELECT meta_value FROM wp_sitemeta WHERE meta_key = 'dismissed_update_core' AND site_id = 1<br>

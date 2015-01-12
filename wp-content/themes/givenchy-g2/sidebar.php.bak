@@ -1,0 +1,75 @@
+<div id="primary" class="widget-area" role="complementary">
+	<a class="logo" href="<?php echo home_url( '/' ); ?>">
+		<img src="<?php bloginfo('template_directory'); ?>/images/menu/logo.jpg" width="182" height="44" />
+	</a>
+	<ul class="you-and-us">
+		<li class="you-and-us-item" style="margin:15px 0 10px 0"><?php echo __('VOUS&NOUS', 'givenchyg2'); ?></li>
+		<?php //$cat = get_the_category(); ?>
+		<?php wp_list_categories(array('title_li' => '', 'orderby' => 'id' /*, 'current_category' => $cat[0]->cat_ID*/)) ?>
+		<?php wp_list_pages(array('title_li' => '', 'include' => PAGE_LOOK_AND_TENDANCES_LOOK_1_ID)); ?>
+		<?php wp_list_pages(array('title_li' => '', 'include' => PAGE_STORE_LOCATOR)); ?>
+	</ul>
+	<?php /* ?>
+	<ul class="products">
+		<li><a href="http://www.parfumsgivenchy.com/maquillage/"><?php echo __('MAQUILLAGES'); ?></a></li>
+		<li><a href="http://www.parfumsgivenchy.com/parfums/"><?php echo __('PARFUMS'); ?></a></li>
+		<li><a href="http://www.parfumsgivenchy.com/soin/"><?php echo __('SOINS'); ?></a></li>
+	</ul>
+	<?php */ ?>
+	
+	<select id="stores">
+		<option value="" selected="selected"><?php echo __('BOUTIQUE EN LIGNE', 'givenchyg2'); ?></option>
+		<option value="http://www.parfumsgivenchy.fr">France</option>
+		<option value="http://www.givenchybeauty.com">United States</option>
+		<option value="http://www.givenchy.com.au">Australia</option>
+	</select>
+	<?php /* ?>
+	<ul class="stores">
+	<?php
+		global $blog_id;
+		if ($blog_id == 1) { // only for france
+	?>
+		<li><a href="http://www.parfumsgivenchy.com/e-boutique/"><?php echo __('BOUTIQUE EN LIGNE', 'givenchyg2'); ?></a></li>
+	<?php } ?>
+	<?php /* ?>
+		<li><a href="http://www.parfumsgivenchy.com/"><?php echo __('NOS BOUTIQUES', 'givenchyg2'); ?></a></li>
+	<?php ?>
+	</ul>
+	<?php */ ?>
+	<?php get_search_form(); ?>
+	
+	<div class="separator"></div>
+	
+	<span id="newsletterSubscribeLabel"><?php echo __("S'abonner &agrave; la newsletter", 'givenchyg2'); ?></span>		
+	<?php echo ALO_em_show_widget_form(); ?>
+	
+	<div id="social">
+		<ul>
+			<li class="facebook"><a href="http://www.facebook.com/pages/Parfums-GIVENCHY/39253099575"><?php echo __('Nous rejoindre sur', 'givenchyg2'); ?></a></li>
+			<li class="twitter"><a href="https://twitter.com/#!/ParfumsGIVENCHY"><?php echo __('Suivez nous sur'); ?></a></li>
+		</ul>
+	</div>
+	
+	
+</div>
+<div id="sidebarFooter">
+	<form method="post">
+		<label for="chooseLanguage"><?php echo __('Choose your language'); ?></label>
+	<?php $blogs = get_blogs_of_user(1); // TODO Find better than that... ?>
+		<select id="chooseLanguage">
+	<?php for ($i = 1; $i <= count($blogs); $i++) { $blog = $blogs[$i]; ?>	
+	<?php 
+			global $blog_id;
+	?>
+			<option  value="<?php echo $blog->siteurl; ?>" <?php echo ($blog_id == $blog->userblog_id) ? 'selected="selected"' : ''; ?>><?php echo constant('LANGUAGE_BLOG_'.$i); ?></option>
+	<?php } ?>		
+		</select>
+	</form>
+	<?php $pageId = LEGAL_PAGE_ID; ?>
+	<?php $legal = get_page($pageId); ?>
+	<a href="<?php echo get_permalink($pageId); ?>"><?php echo $legal->post_title; ?></a>
+	<br /><br />
+	<?php echo __('© Parfums Givenchy 2011'); ?>
+	
+</div>
+

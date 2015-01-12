@@ -1,0 +1,193 @@
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+		var GMonth,GDay,GMaxDay;
+		var GConstellation="",GLastConstellation="";
+		var GFlag=0;
+		var star;
+		var submitFlag=0;
+		
+		function Constellation(GMonth,GDay){
+			
+		
+				GLastConstellation=GConstellation;
+				var GConstellationNumber=GMonth*100+GDay;	
+				if(121<=GConstellationNumber&&GConstellationNumber<=219){
+					GConstellation="Aquarius";
+					star=10;
+					}
+				else if(220<=GConstellationNumber&&GConstellationNumber<=320){
+					GConstellation="Pisces";
+					star=11;
+					}
+				else if(321<=GConstellationNumber&&GConstellationNumber<=420){
+					GConstellation="Aries";
+					star=0;
+					}
+				else if(421<=GConstellationNumber&&GConstellationNumber<=521){
+					GConstellation="Taurus";
+					star=1;
+					}
+				else if(522<=GConstellationNumber&&GConstellationNumber<=621){
+					GConstellation="Gemini";
+					star=2;
+					}
+				else if(622<=GConstellationNumber&&GConstellationNumber<=722){
+					GConstellation="Cancer";
+					star=3;
+					}
+				else if(723<=GConstellationNumber&&GConstellationNumber<=823){
+					GConstellation="Leo";
+					star=4;
+					}
+				else if(824<=GConstellationNumber&&GConstellationNumber<=923){
+					GConstellation="Virgo";
+					star=5;
+					}
+				else if(924<=GConstellationNumber&&GConstellationNumber<=1023){
+					GConstellation="Libra";
+					star=6;
+					}
+				else if(1024<=GConstellationNumber&&GConstellationNumber<=1122){
+					GConstellation="Scorpio";
+					star=7;
+					}
+				else if(1123<=GConstellationNumber&&GConstellationNumber<=1221){
+					GConstellation="Sagittarius";
+					star=8;
+					}
+				else{
+					GConstellation="Capricorn";
+					star=9;
+					}
+				//console.log(GConstellationNumber,GConstellation,GConstellation+"_light.png");
+				if(GLastConstellation!=""){
+					jQuery("."+GLastConstellation).css("background-image","url('"+"<?php echo $img_root; ?>"+GLastConstellation+".png"+"')");
+				}
+				jQuery("."+GConstellation).css("background-image","url('"+"<?php echo $img_root; ?>"+GConstellation+"_light.png"+"')");
+				
+				}
+			
+		
+		jQuery("#day,#month").change(function(){
+				
+				GDay=parseInt(jQuery("#day").val());
+				GMonth=parseInt(jQuery("#month").val());
+				if(GDay&&GMonth){
+					Constellation(GMonth,GDay);
+					//console.log(GDay,GMonth);
+					
+					jQuery("#subform").attr("action","?page=play&select_id="+star);
+					submitFlag=1;
+					jQuery("#subform #stayname").val(1);
+				}
+				else{
+					jQuery("."+GConstellation).css("background-image","url('"+"<?php echo $img_root; ?>"+GConstellation+".png"+"')");
+					submitFlag=0;
+					jQuery("#subform #stayname").val(0);
+				}
+				//console.log(GLastConstellation);
+			
+			});
+			
+		jQuery(".submit-box a").click(function(){
+					if(submitFlag==1){
+						document.getElementById("subform").submit();
+						}
+					else{
+						jQuery.blockUI({
+							message:jQuery('#wrong')			
+						});
+						jQuery("#wrong button").click(function(){
+							setTimeout(jQuery.unblockUI, 1);
+						});
+						setTimeout(jQuery.unblockUI, 2000);
+					}
+				});
+		
+	});
+</script>
+
+
+
+<div class="game-wrapper">
+	<div class="head-Title">填写生日 领取体验装</div>
+	<div class="main-content">
+		<div class="Aries">白羊座</div>
+		<div class="Taurus">金牛座</div>
+		<div class="Gemini">双子座</div>
+		<div class="Cancer">巨蟹座</div>
+		<div class="Leo">狮子座</div>
+		<div class="Virgo">处女座</div>
+		<div class="Libra">天枰座</div>
+		<div class="Scorpio">天蝎座</div>
+		<div class="Sagittarius">射手座</div>
+		<div class="Capricorn">魔羯座</div>
+		<div class="Aquarius">水瓶座</div>
+		<div class="Pisces">双鱼座</div>		
+	</div>
+	<div class="form">
+			<div class="form-title">你的生日</div>
+			<div class="form-box">			
+			<select name="month" id="month">
+				<option value="">请选择</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+			<label>月</label>
+			</div>
+			<div class="form-box">
+			<select name="day" id="day">
+				<option value="">请选择</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<label>日</label></div>
+			<div class="submit-box"><a href="#">确认</a></div>
+		</div>
+	<div class="foot-message"><a href="?page=game_rule" target="_blank">游戏规则</a></div>
+	<div class="hidden-success" id="wrong"><div class="p-attension"></div><p class="p-wrong">您还未选择您的星座</p><button value="确定">确定</button></div>
+	<form id="subform" action="" hidden="hidden" method="post">
+		<input type="hidden" name="stayname" hidden="hidden" id="stayname"/>
+	</form>
+</div>
+

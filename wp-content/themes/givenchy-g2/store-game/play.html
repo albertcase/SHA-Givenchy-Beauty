@@ -1,0 +1,220 @@
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	//底下的几个值需要php输出
+		share_pic_url="<?php  echo $img_root;  ?>share-pic.jpg";
+		share_words="<?php  echo $selected_info['say'];  ?>";
+	
+});
+</script>
+<script type="text/javascript">
+(function(){
+   _w = 72 , _h = 16;
+   param = {
+    url:"http://<?php echo DOMAIN_CURRENT_SITE.'/vaxin/'; ?>",
+    type:'3',
+    count:'0', /**是否显示分享数，1显示(可选)*/
+    appkey:'', /**您申请的应用appkey,显示分享来源(可选)*/
+    title:'我在纪梵希看到了', /**分享的文字内容(可选，默认为所在页面的title)*/
+    pic:'', /**分享图片的路径(可选)*/
+    ralateUid:'1922825090', /**关联用户的UID，分享微博会@该用户(可选)*/
+	language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
+	searchPic:'false',
+    rnd:new Date().valueOf()
+  }
+  
+})()
+
+//微博分享
+/*function weiboShare(){
+	
+		
+	
+	share_window="http://service.weibo.com/share/share.php?";
+	param.pic=share_pic_url;
+	param.title=share_words;
+	
+	//alert(param.title);
+	temp = [];
+  for( var p in param ){
+    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+  }  
+	
+	share_window+=temp.join('&');
+	//console.log(share_window);
+	//$("#share-iframe").attr("src",share_window);
+	
+	//alert(share_window);
+	window.open(share_window,"_blank","width=615,height=505");
+	
+}*/
+
+$(document).ready(function(){
+	$("#share-button").click(function(){
+		$.blockUI({ message: $('#loginForm'),
+					css:{width: "576px"}
+		 });
+		$('.blockPage').css({"width":"","top":"20%"});
+		});	
+	});
+</script>
+
+
+
+<div class="slot-begin" id="slot-begin">
+<div class="tiger-wrapper">
+	<div class="tiger-title">星座蛋白质女孩&nbsp;养成TIPS </div>
+	<div class="detail-title">
+
+<h2>纪梵希 蛋白质女孩不简单</h2>
+
+<h2>内修蛋白质，外修气质</h2>
+
+<h3 class="changeH3">蛋白质女孩，像蛋白质一样健康纯净，她是年轻与活力的代名词，</h3>
+
+<h3>肤质光洁通透，由内而外散发着令人羡慕的新生好气色！</h3>
+<h4>来看看十二星座蛋白质女孩 养成TIPS</h4>
+
+
+	</div>
+	<div class="tiger-main">
+		<div class="tiger-tr tr1">
+			<div class="tiger-h">正确护肤</div>
+			<div class="tiger-Box">
+				<ul><!--共10个，图片和文字需要php输出-->
+					<?php
+                        for($i = 0; $i < 10; $i++){
+                            echo '<li><img src="'.$img_root.$selected.'_1.jpg" /></li>';
+                        }
+                    ?>					
+				</ul>
+				<img src="<?php  echo $img_root;  ?>ani.gif" alt="" class="slotSpinAnimation" ">
+			</div>
+			<div class="tiger-message"><?php  echo $selected_info['for'];  ?></div>
+		</div>
+		<div class="tiger-tr tr2">
+			<div class="tiger-h">健康运动</div>
+			<div class="tiger-Box">
+				<ul>
+					<?php
+                        for($i = 0; $i < 10; $i++){
+                            echo '<li><img src="'.$img_root.$selected.'_2.jpg" /></li>';
+                        }
+                    ?>
+				</ul>
+				<img src="<?php  echo $img_root;  ?>ani.gif" alt="" class="slotSpinAnimation" ">
+			</div>
+			<div class="tiger-message"><?php  echo $selected_info['sec'];  ?></div>
+		</div>
+		<div class="tiger-tr tr3">
+			<div class="tiger-h">规律作息</div>
+			<div class="tiger-Box">
+				<ul>
+					<?php
+                        for($i = 0; $i < 10; $i++){
+                            echo '<li><img src="'.$img_root.$selected.'_3.jpg" /></li>';
+                        }
+                    ?>
+				</ul>
+				<img src="<?php  echo $img_root;  ?>ani.gif" alt="" class="slotSpinAnimation" ">
+			</div>
+			<div class="tiger-message"><?php  echo $selected_info['fir'];  ?></div>
+		</div>
+		<div class="tiger-tr tr4">
+			<div class="tiger-h">膳食平衡</div>
+			<div class="tiger-Box">
+				<ul>
+					<?php
+                        for($i = 0; $i < 10; $i++){
+                            echo '<li><img src="'.$img_root.$selected.'_4.jpg" /></li>';
+                        }
+                    ?>
+				</ul>
+				<img src="<?php  echo $img_root;  ?>ani.gif" alt="" class="slotSpinAnimation" ">
+			</div>
+			<div class="tiger-message"><?php  echo $selected_info['thr'];  ?></div>
+		</div>
+	</div>
+	<div class="tiger-start">
+		<a href="">startGame</a>
+	</div>
+	<div class="tiger-share">
+		<a href="#" id="share-button">分享TIPS领取片装</a>
+	</div>
+	
+	<!--down is share content-->
+	<div id="loginForm" style="display:none">
+		<div class="form-html">
+	<div class="form-title">请填写个人信息,以便通知您领取小样和奖品</div>
+	<div class="form-content">
+		<div class="left"><label>姓名<span>*</span></label>
+		<input type="text" class="input-name"/>
+		</div>
+		<div class="right"><label>邮箱<span>*</span></label>
+		<input type="text" class="input-email" id="mail"/></div>
+		<div class="left"><label>手机<span>*</span></label>
+		<input type="text" class="input-phone" id="phone"/></div>
+	</div>
+	<div class="pic-up">
+		<div class="title">选择领取小样的柜台</div>
+		<div class="left">
+		<label>省份<span>*</span></label>
+		<select name="province" title="省" id="province">
+			<option value="">请选择</option>
+			<option value="110000">上海</option>
+			<option value="120000">浙江</option>
+			<option value="130000">广西</option>
+			<option value="140000">江苏</option>
+			<option value="150000">湖南</option>
+			<option value="210000">江西</option>
+			<option value="220000">云南</option>
+			<option value="230000">贵州</option>
+			<option value="310000">福建</option>
+			<option value="320000">湖北</option>
+			<option value="330000">广东</option>
+			<option value="340000">安徽</option>
+			<option value="360000">北京</option>
+			<option value="370000">辽宁</option>
+			<option value="380000">重庆</option>
+			<option value="410000">黑龙江</option>
+			<option value="420000">四川</option>
+			<option value="430000">河北</option>
+			<option value="440000">天津</option>
+			<option value="450000">河南</option>
+			<option value="460000">山东</option>
+			<option value="500000">新疆</option>
+			<option value="510000">吉林</option>
+			<option value="520000">甘肃</option>
+			<option value="530000">内蒙古</option>
+			<option value="610000">陕西</option>
+			<option value="620000">山西</option>
+		</select>
+		</div>
+		<div class="right">
+		<label>市区<span>*</span></label>
+		<select name="city" title="市/区" id="city">
+			<option value="">请选择</option>
+		</select>
+		
+		</div>
+		<div class="both">
+			<div id="outOfStocknumAttention">本周体验装已申领结束，请下周再来申请</div>
+		</div>
+		<div class="both">
+		<label>柜台<span>*</span></label>
+		<select name="counter" title="柜台" id="counter" class="counter">
+			<option value="">请选择领取柜台</option>
+		</select>
+		</div>
+		<div class="button-submit"><input type="button" value="确定" class="submit" disabled="disabled"/></div>
+	</div>
+	<div class="bottom-message"><div class="attention"><span>*为必填项</span></div>
+	<div class="check-message"><input type="checkbox" value="1" class="check-box"/>我想了解纪梵希美妆的新讯息
+	</div></div>
+</div>
+	</div>
+	<div class="hidden-success" id="success"><div class="p-ok"></div><p class="p-wrong">感谢您参加"12星座蛋白质女孩"活动，<br />短信发送成功！分享游戏到新浪微博，同时@Givenchy纪梵希美妆、并@三个好友，每周会从中抽出10位幸运 者获得全新VAX’IN焕颜美肌乳液50ml正装一瓶，共40位。
+</p><button value="确定">确定</button></div>
+	<div class="hidden-success" id="wrong"><div class="p-attension"></div><p class="p-wrong">wrong</p><button value="确定">确定</button></div>
+</div>
+</div>
+

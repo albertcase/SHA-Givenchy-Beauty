@@ -1,0 +1,324 @@
+.application-item-container {
+	overflow: hidden; 
+	margin-bottom: 20px;
+}
+
+
+
+.scrollbar_container {  
+    position:relative;  
+	margin-right:30px; 
+} 
+ 
+.scrollbar_track {  
+    position:absolute;  
+    top:0;  
+    right:0;  
+    height:100%;  
+    width:20px;  
+    background-color:#7f7f7f;  
+    cursor:move;  
+} 
+ 
+.scrollbar_handle {  
+    width:20px;  
+    background-color:#000;  
+    cursor:move;  
+    opacity:0.9;  
+    -moz-opacity:0.9;  
+} 
+ 
+.scrollbar_content {  
+    overflow:hidden; 
+	
+} 
+
+
+
+#look-tendances {
+	background-color:#FFF;
+	height:670px;
+}
+
+#look-tendances #content {
+	float:left;
+	margin:30px;
+	width:680px; 
+}
+
+#faceWrapper {
+	width:680px; 
+	height:550px; 
+	display: block;
+}
+
+#look-tendances .faceContainer {
+	width:680px; 
+	position:relative;
+}
+
+#look-tendances .faceContainer .number {
+	font-family:'FuturaBook';
+	font-size:78px;
+	color:#FFF;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#look-tendances .faceContainer .arrowLeft {
+	position:absolute;
+	top:260px;
+	left:0px;
+}
+
+#look-tendances .faceContainer .arrowRight {
+	position:absolute;
+	top:260px;
+	right:0px;
+}
+
+#look-tendances .faceContainer #zoom {
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:30px;
+	height:30px;
+	background-image:url(../images/look-tendances/shared/zoom.jpg);	
+}
+
+#look-tendances .faceContainer #zoom.zoomOut {
+	background-image:url(../images/look-tendances/shared/zoomOut.jpg) !important;	
+}
+
+/********************************************************/
+
+
+#look-tendances .footer {
+	padding-top:5px;
+}
+
+#look-tendances .footer .addthis_toolbox {
+	float:left;
+}
+
+#look-tendances .footer #menu {
+	float:right;
+	padding-top:5px;		
+}
+
+#look-tendances .footer #menu li {
+	float:left;
+}
+
+#look-tendances .footer #menu a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:5px;
+	border-right:1px solid #000;
+}
+
+#look-tendances .footer #menu a.selected {
+	color:#999999;
+}
+
+#look-tendances .footer #menu a.num-comments {
+	border-right:0px;
+	background-image:url(../images/look-tendances/shared/comment.jpg);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+	padding-left:20px;
+}
+
+
+
+
+/********************************************************/
+
+.popupWrapperContainer {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.popupWrapper {
+	padding:40px 0 40px 30px;
+	background-color:#FFF;
+	position:relative;
+}
+
+.popupWrapper .close {
+	display:block;
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:15px;
+	height:15px;
+	background-image:url(../images/look-tendances/shared/close.jpg);
+}
+
+.popup {
+
+}
+
+.popup h1 {
+	
+    font-family: 'FuturaBook';
+    font-size: 16px;
+    font-weight: normal;
+	margin-bottom:35px;
+	text-transform:uppercase;
+}
+
+.popup h2 {
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+.popup p {
+	margin-bottom:15px;
+}
+
+.popup p span {
+	text-decoration:underline;
+}
+
+
+.popup p:last-child {
+	margin-bottom:30px;	
+}
+
+#descriptionPopup .scrollbar_content {
+	width:250px;
+	height:200px;
+}
+
+#applicationPopup .scrollbar_content {
+	width:490px;
+	height:360px;
+}
+
+#commentPopup .popup {
+	width:570px;
+	height:335px;
+}
+
+#commentPopup {
+	padding-top:0;
+	padding-bottom:0;
+	height:415px;
+}
+
+#commentPopup .scrollbar_container {
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#productPopup .scrollbar_content {
+	width:540px;
+	height:335px;
+}
+
+#commentPopup .scrollbar_content {
+	width:290px;
+	height:335px;
+}
+
+#comments.lt {
+	min-height:0;
+	background:none;
+	padding:0;
+}
+
+#comments.lt .left {
+	float:left; 
+	width:339px; 
+	position: relative;
+}
+
+
+#comments.lt .right {
+	float:left; 
+	width:230px;
+	background-color:#000;
+	height:415px;
+}
+
+#comments.lt .right p {
+	margin-bottom:5px;
+}
+
+#comments.lt .right h3 {
+	color:#FFF;
+	padding-top:40px;
+	padding-left:10px;
+}
+/********************************************************/
+
+/********************************************************/
+
+#look-tendances #tabs {
+	float:left;
+	background-color:#000;
+	width:20px;
+	height:100%;
+}
+
+#look-tendances #tabs .navigator {
+	background-color:#FFF;
+	text-align:center;
+	height:45px;
+	padding-top:15px;
+}
+
+#look-tendances #tabs .tab {
+	height:60px;
+	border-bottom:1px solid #FFF;
+	font-family:'FuturaBook';
+	font-size:14px;
+	position:relative;
+}
+
+#look-tendances #tabs .tab a {
+	height:60px;
+	display:block;
+	color:#FFF;
+	position:relative;
+}
+
+#look-tendances #tabs .tab a span {
+	position:absolute;
+	bottom:5px;
+	left:2px;
+}
+
+#look-tendances #tabs .tab.selected {
+	background-color:#FFF;
+}
+
+#look-tendances #tabs .tab.selected a {
+	color:#000;
+}
+
+#look-tendances .product {
+	width:150px;
+	height:185px;
+	float:left;
+	text-align:center;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:20px;
+}
+
+#look-tendances .product.no-product {
+
+}
+
+#look-tendances .product span {
+	display:block;
+	text-align:left;
+}
