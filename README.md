@@ -4,7 +4,7 @@
 
 [http://www.givenchybeauty.cn/](http://www.givenchybeauty.cn/)
 
-[http://dahlianoir.dangdaimingshi.com](http://dahlianoir.dangdaimingshi.com)
+[http://dahlianoir.givenchybeauty](http://dahlianoir.givenchybeauty.com)
 
 
 
