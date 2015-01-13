@@ -79,7 +79,7 @@ Log into the Virtualbox instance first, then execute following steps in below.
 		// import db
 		cd /vagrant
 		mysqladmin -uroot create givenchyconversations
-		bunzip -c givenchyconversations20150112.sql.bz2 | mysql -uroot -v martell
+		bunzip -c givenchyconversations20150112.sql.bz2 | mysql -uroot -v givenchyconversations
 
 		//  extract files
 		cd /vagrant
