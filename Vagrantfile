@@ -10,12 +10,12 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 80, host: 8001
   config.vm.network :forwarded_port, guest: 3306, host: 33061
 
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
+
   config.vm.network :private_network, ip: "192.168.33.8"
 
   config.vm.synced_folder "./", "/vagrant", :nfs => true
-
-  config.ssh.private_key_path = "~/.ssh/id_rsa"
-  config.ssh.forward_agent = true
 
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "1024"]
