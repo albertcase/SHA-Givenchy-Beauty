@@ -100,7 +100,6 @@
 ?>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/prototype/prototype.js"></script>
 
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/html5media.min.js"></script>
 	<!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE*" />-->
 	<?php
 		
@@ -162,6 +161,7 @@
 		}
 		document.observe('dom:loaded', init);
 	</script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/html5media.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
