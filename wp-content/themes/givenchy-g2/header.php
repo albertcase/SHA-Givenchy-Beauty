@@ -161,7 +161,7 @@
 		}
 		document.observe('dom:loaded', init);
 	</script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/html5media.min.js"></script>
+    <script src="http://api.html5media.info/1.1.4/html5media.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
