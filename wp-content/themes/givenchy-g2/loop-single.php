@@ -46,7 +46,7 @@ if (strpos($content, 'http://www.youtube') === false && strpos($content, 'video-
 				-->
 				
 			</div><!-- .entry-meta -->
-			<?php if ($thumbnailId >= 0) { ?>
+			<?php if ($topimg_url) { ?>
 			<div class="entry-image">
             <!--
                 <?php //$attach =  wp_get_attachment_image_src($thumbnailId, 'full'); ?>
