@@ -46,17 +46,17 @@ if (strpos($content, 'http://www.youtube') === false && strpos($content, 'video-
 				-->
 				
 			</div><!-- .entry-meta -->
-			<?php if ($topimg_url) { ?>
+			<?php 
+                $id = get_the_ID();
+                include_once( ABSPATH . 'wp-admin/includes/topimg.php' );
+                $topimg_url = get_topimg($id);
+            ?>
+            <?php if ($topimg_url) { ?>
 			<div class="entry-image">
             <!--
                 <?php //$attach =  wp_get_attachment_image_src($thumbnailId, 'full'); ?>
 				<img src="<?php //echo $attach[0]; ?>" width="470" alt="" />
             -->
-				<?php 
-                    $id = get_the_ID();
-                    include_once( ABSPATH . 'wp-admin/includes/topimg.php' );
-                    $topimg_url = get_topimg($id);
-                ?>
 				<img src="<?php echo $topimg_url; ?>" width="470" alt="" />
             </div>
 			<?php } ?>
