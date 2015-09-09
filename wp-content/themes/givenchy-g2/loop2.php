@@ -49,8 +49,8 @@ switch($wp_query -> queried_object -> name){
     case '净白盈采系列':
         $category_top_page_img = $img_root.'second_top_3.jpg?v=1';
         break;
-    case '墨藻珍萃系列':
-        $category_top_page_img = $img_root.'second_top_4_3.jpg';
+    case '墨藻珍萃黑金系列':
+        $category_top_page_img = $img_root.'second_top_20.jpg';
         break;
     case '特殊护理':
         $category_top_page_img = $img_root.'second_top_5.jpg';
@@ -65,7 +65,7 @@ switch($wp_query -> queried_object -> name){
         $category_top_page_img = $img_root.'second_top_8.jpg';
         break;   
     case '唇部':
-        $category_top_page_img = $img_root.'second_top_9.jpg';
+        $category_top_page_img = $img_root.'second_top_21.jpg';
         break;   
     case '眼影':
         $category_top_page_img = $img_root.'second_top_10.jpg';
